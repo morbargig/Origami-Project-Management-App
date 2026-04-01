@@ -74,11 +74,12 @@ Since your Origami environment supports custom user fields, add these directly t
 Note: in Origami, a custom field cannot point to a Group.
 At the project level, use only `user` and `multi-user` fields for ownership and staffing.
 
-- Department — text or enum
+- Mobile Number — text
+- Department — select / choice
 - Job Title — text
-- Hourly Rate — number
+- Hourly Rate — numeric range / number selection
 - Weekly Capacity Hours — number
-- Specialization — text or enum
+- Specialization — text
 
 The most useful first ones are:
 - Hourly Rate

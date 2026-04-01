@@ -462,20 +462,24 @@ The Task is the work unit assigned to a specific person.
 
 Since your Origami environment supports custom user fields, recommended user custom fields are:
 
+#### Mobile Number
+- **Type:** text
+
 #### Department
-- **Type:** text or enum
+- **Type:** select / choice
 
 #### Job Title
 - **Type:** text
 
 #### Hourly Rate
-- **Type:** number
+- **Type:** numeric range / number selection
 
 #### Weekly Capacity Hours
-- **Type:** number
+- **Type:** text
+- **Note:** stores a numeric value in the current Origami setup
 
-#### QA Specialization
-- **Type:** text or enum
+#### Specialization
+- **Type:** text
 
 These fields support better resource planning, future budget logic, and reporting.
 
