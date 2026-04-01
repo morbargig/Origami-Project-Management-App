@@ -396,6 +396,11 @@ The Task is the work unit assigned to a specific person.
 
 ### Fields
 
+#### id
+- **Type:** auto-id / readonly
+- **Required:** yes
+- **Purpose:** system-facing task identifier
+
 #### Title
 - **Type:** text
 - **Required:** yes
@@ -416,14 +421,16 @@ The Task is the work unit assigned to a specific person.
 - **Type:** user
 - **Required:** yes
 
-#### Task QA Owner
+#### QA Assignee
 - **Type:** user
 - **Required:** no
-- **Purpose:** the QA person responsible for the task if needed
+- **Default behavior:** the task executor validates the task
+- **Purpose:** optional validation owner when the task should be checked by QA or by another developer instead of being validated only by the `Assignee`
+- **Responsibility:** the `Assignee` always remains responsible for making sure the task is actually done. While the Epic is `In Progress`, `QA Assignee` is only a helper or reviewer and does not own task status updates. The reviewer can confirm readiness by message, call, or another external check, and then the `Assignee` updates the task status. When the Epic is in `QA`, the QA reviewer may check the task and send it back to `Self QA` if more work is needed
 
 #### Status
 - **Type:** enum
-- **Values:** New, In Progress, Ready for QA, QA, Done
+- **Values:** New, InProgress, Self QA, Done
 - **Required:** yes
 
 #### Priority
@@ -431,26 +438,26 @@ The Task is the work unit assigned to a specific person.
 - **Values:** Low, Medium, High, Critical
 - **Required:** yes
 
-#### Start Date
-- **Type:** date
-- **Required:** no
-
 #### Due Date
 - **Type:** date
 - **Required:** yes
 
+#### Start Date
+- **Type:** date
+- **Required:** no
+
 #### Estimated Hours
-- **Type:** number
+- **Type:** numeric range / number selection
 - **Required:** no
 
 #### Actual Hours
-- **Type:** number
+- **Type:** numeric range / number selection
 - **Required:** no
 
 #### Locked
 - **Type:** boolean
 - **Default:** false
-- **Purpose:** restrict editing during QA
+- **Purpose:** restrict editing during self-QA or reviewer validation
 
 #### Overdue
 - **Type:** boolean
@@ -475,7 +482,7 @@ Since your Origami environment supports custom user fields, recommended user cus
 - **Type:** numeric range / number selection
 
 #### Weekly Capacity Hours
-- **Type:** text
+- **Type:** number
 - **Note:** stores a numeric value in the current Origami setup
 
 #### Specialization
@@ -605,7 +612,7 @@ Execution board.
 Kanban by task status:
 
 ```text
-New | In Progress | Ready for QA | QA | Done
+New | InProgress | Self QA | Done
 ```
 
 ---
@@ -660,7 +667,7 @@ Personal execution page.
 Pending validation work.
 
 ### Filter
-- Task status = Ready for QA or QA
+- Task status = Self QA
 - Epic status = Ready for QA or QA
 
 ---
@@ -691,16 +698,16 @@ When a task is created:
 - Locked = false
 - Overdue = false
 
-## WF-02 — Task QA lock [V1 Core]
+## WF-02 — Task validation lock [V1 Core]
 
-When Task status becomes QA:
+When Task status becomes Self QA:
 - Locked = true
 
-Only QA Members, QA Managers, Project Managers, and System Managers may edit locked tasks.
+Only Assignee, QA Assignee, Project Managers, and System Managers may edit locked tasks.
 
 ## WF-03 — Task unlock [V1 Core]
 
-When Task status changes from QA to another value:
+When Task status changes from Self QA to another value:
 - Locked = false
 
 ## WF-04 — Overdue flag [V1 Core]
@@ -745,9 +752,21 @@ When an Epic status becomes Ready for QA:
 
 ## [V1 Core] 12. Notifications and QA Flow
 
-At the **task level**, each task may have its own QA owner or task-level QA accountability.
+At the **task level**, the normal rule is simple: the person who executes the task is responsible for getting it truly done and, by default, also validates it.
 
-At the **epic level**, the QA team handles validation as a grouped business process.
+The `QA Assignee` field is optional. Use it only when the task should be reviewed by someone else. That reviewer can be a QA user or another developer, but the original `Assignee` still owns the actual completion of the task and remains the normal owner of task status changes while the Epic is `In Progress`.
+
+At the **epic level**, validation is handled separately through the QA manager and QA team process.
+
+### Task validation model
+
+1. `Assignee` performs the task work
+2. `Assignee` is always responsible for making sure the task is really complete
+3. By default, the same `Assignee` validates the task and updates the task status
+4. If a second check is needed while the Epic is `In Progress`, set `QA Assignee` to a QA user or another developer
+5. That reviewer checks the work and confirms readiness outside the workflow, for example by text, call, or direct communication
+6. After that confirmation, the `Assignee` decides the task is ready and updates the task status
+7. Use epic-level QA flow when the whole epic needs formal QA handling
 
 ### Epic QA flow
 
@@ -758,7 +777,12 @@ At the **epic level**, the QA team handles validation as a grouped business proc
 5. Epic moves to `QA`
 6. QA team member tests and either:
    - moves Epic to `Done`
-   - returns it to `In Progress`
+   - returns Epic to `In Progress`
+   - returns related task(s) to `Self QA` when a task still needs fixes, rework, or environment updates
+
+When the Epic is in `QA`, the QA reviewer is responsible for checking whether the related tasks are truly done. If a task is not ready, QA can return that task to `Self QA` until the developer fixes it and rechecks it.
+
+When a task is returned to `Self QA`, the developer should fix the issue, re-check the task, prepare the environment if needed, and update the task status again.
 
 This creates a proper separation between execution and validation and is appropriate for a medium-size team with a dedicated QA function.
 

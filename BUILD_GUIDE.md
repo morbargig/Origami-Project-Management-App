@@ -148,26 +148,35 @@ Add these fields:
 
 Add these fields:
 
+- id — auto-id / readonly
 - Title — text
 - Description — long text
 - Project — relation to Project
 - Epic — relation to Epic
 - Assignee — user
-- Task QA Owner — user
+- QA Assignee — user
 - Status — enum
 - Priority — enum
-- Start Date — date
 - Due Date — date
-- Estimated Hours — number
-- Actual Hours — number
+- Start Date — date
+- Estimated Hours — numeric range / number selection
+- Actual Hours — numeric range / number selection
 - Locked — boolean
 - Overdue — boolean
 
+### Task assignment rule
+- `Assignee` is always responsible for making sure the task is actually done
+- by default, the same user in `Assignee` also validates the task
+- while the Epic is `In Progress`, use `QA Assignee` only when the task needs a second review by QA or by another developer
+- in that phase, `QA Assignee` is only a reviewer and does not update the task status
+- the reviewer confirms readiness outside the workflow, and the `Assignee` updates the task status
+- when the Epic is in `QA`, the QA reviewer may check tasks and return them to `Self QA` if more work is needed
+- keep formal routed QA primarily at the Epic level
+
 ### Status values
 - New
-- In Progress
-- Ready for QA
-- QA
+- InProgress
+- Self QA
 - Done
 
 ### Priority values
@@ -248,23 +257,28 @@ It gives usable operations early, then management views, then advanced timeline 
 
 ---
 
-## WF-02 Task QA lock
+## WF-02 Task validation lock
 
 ### Trigger
-- when Task.Status changes to QA
+- when Task.Status changes to Self QA
 
 ### Actions
 - Locked = true
 
 ### Permission effect
-- restrict editing to QA Members, QA Managers, Project Managers, System Managers
+- restrict editing to Assignee, QA Assignee, Project Managers, System Managers
+
+### Operational rule
+- while the Epic is `In Progress`, the `Assignee` remains the owner of task status updates
+- if `QA Assignee` is set in that phase, that user only reviews the task and confirms readiness
+- when the Epic is in `QA`, the QA reviewer may send tasks back to `Self QA` for rework, fixes, or environment updates
 
 ---
 
 ## WF-03 Task unlock
 
 ### Trigger
-- when Task.Status changes from QA to any other value
+- when Task.Status changes from Self QA to any other value
 
 ### Actions
 - Locked = false
