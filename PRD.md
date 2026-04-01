@@ -179,6 +179,8 @@ This structure keeps the system readable for managers and teachable for students
 
 This system should use **Origami native Users and Groups**.
 
+Important Origami constraint: custom fields cannot point to a Group. At the project level, use only `user` and `multi-user` fields for ownership and staffing.
+
 ### Recommended groups
 - **System Managers**
 - **Project Managers**
@@ -194,21 +196,24 @@ Using **System Manager** instead of “Admin” is a good naming choice if that 
 Each Project should have:
 
 - a **Project Manager**
+- a **Delivery Manager**
 - a **Delivery Team**
-- optionally a **QA Team**
+- a **QA Manager**
+- a **QA Team**
 
 Recommended fields on Project:
 
 - `Project Manager` — user
-- `Delivery Team` — enum or relation, based on your setup
-- `QA Team` — enum or relation
+- `Delivery Manager` — user
+- `Delivery Team` — multi-user
 - `QA Manager` — user
+- `QA Team` — multi-user
 
 This gives flexibility for:
 
-- one QA team serving many projects
-- multiple QA teams by domain
-- a dedicated QA manager per project area
+- clear accountable owners per delivery and QA stream
+- visible staffing using user-based fields only
+- reporting by manager and by assigned team members
 
 ### One QA team or several?
 
@@ -254,7 +259,7 @@ Since your Origami environment supports custom user fields, user attributes like
 ## Project
 
 ### Purpose
-The Project is the main management record. It explains the initiative, its goal, time frame, team ownership, and budget.
+The Project is the main management record. It explains the initiative, its goal, time frame, ownership, staffing, and budget.
 
 ### Fields
 
@@ -283,20 +288,25 @@ The Project is the main management record. It explains the initiative, its goal,
 - **Required:** yes
 - **Purpose:** single accountable owner
 
-#### Delivery Team
-- **Type:** enum or relation
+#### Delivery Manager
+- **Type:** user
 - **Required:** yes
-- **Purpose:** the main team doing the work
+- **Purpose:** day-to-day delivery lead for the project
 
-#### QA Team
-- **Type:** enum or relation
-- **Required:** no, but recommended
-- **Purpose:** QA ownership at project level
+#### Delivery Team
+- **Type:** multi-user
+- **Required:** yes
+- **Purpose:** the delivery users assigned to the project
 
 #### QA Manager
 - **Type:** user
-- **Required:** no, but recommended
+- **Required:** yes
 - **Purpose:** escalation and QA routing owner
+
+#### QA Team
+- **Type:** multi-user
+- **Required:** yes
+- **Purpose:** the QA users assigned to the project
 
 #### Status
 - **Type:** enum
@@ -464,9 +474,6 @@ Since your Origami environment supports custom user fields, recommended user cus
 #### Weekly Capacity Hours
 - **Type:** number
 
-#### Primary Team
-- **Type:** enum or relation
-
 #### QA Specialization
 - **Type:** text or enum
 
@@ -517,7 +524,9 @@ One table for all projects.
 ### Columns
 - Name
 - Project Manager
+- Delivery Manager
 - Delivery Team
+- QA Manager
 - QA Team
 - Status
 - Start Date
@@ -529,7 +538,7 @@ One table for all projects.
 ### Visual concept
 
 ```text
-[Name] [PM] [Team] [QA Team] [Status] [Dates] [Budget] [Progress]
+[Name] [PM] [Delivery Manager] [Delivery Team] [QA Manager] [QA Team] [Status] [Dates] [Budget] [Progress]
 ```
 
 ---
@@ -544,7 +553,9 @@ Main PM page.
 ```text
 ┌────────────────────────────────────────────┐
 │ Project: Smart PM System                   │
-│ PM: Mor     Team: Platform     QA: Core QA │
+│ PM: Mor   Delivery Mgr: Dana   QA Mgr: Lee │
+│ Delivery Team: Platform Devs               │
+│ QA Team: Core QA                           │
 │ Status: Active     Budget: 180 / 320       │
 │ Dates: 01/04 → 30/06     Progress: 46%     │
 ├────────────────────────────────────────────┤
@@ -813,7 +824,7 @@ This board should show:
 ## [V2 Advanced] 16. Reporting and Dashboards
 
 Later reports can include:
-- budget by team
+- budget by manager or team
 - epic cycle time
 - overdue trends
 - QA lead time

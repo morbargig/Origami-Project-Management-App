@@ -71,15 +71,16 @@ A user may belong to more than one group if needed, but avoid unnecessary overla
 
 Since your Origami environment supports custom user fields, add these directly to Users:
 
+Note: in Origami, a custom field cannot point to a Group.
+At the project level, use only `user` and `multi-user` fields for ownership and staffing.
+
 - Department — text or enum
 - Job Title — text
 - Hourly Rate — number
 - Weekly Capacity Hours — number
-- Primary Team — enum or relation
-- QA Specialization — text or enum
+- Specialization — text or enum
 
 The most useful first ones are:
-- Primary Team
 - Hourly Rate
 - Weekly Capacity Hours
 
@@ -96,9 +97,10 @@ Add these fields:
 - Project Goal — long text
 - Business Context — long text
 - Project Manager — user
-- Delivery Team — enum/relation
-- QA Team — enum/relation
+- Delivery Manager — user
+- Delivery Team — multi-user
 - QA Manager — user
+- QA Team — multi-user
 - Status — enum
 - Start Date — date
 - End Date — date
