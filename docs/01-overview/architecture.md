@@ -44,3 +44,5 @@ The architecture includes these control layers:
 
 - [System architecture](../../assets/diagrams/system-architecture.svg)
 - [QA flow](../../assets/diagrams/qa-flow.svg)
+- [Gantt logic](../../assets/diagrams/gantt-logic.svg)
+- [Pages structure](../../assets/diagrams/pages-structure.svg)

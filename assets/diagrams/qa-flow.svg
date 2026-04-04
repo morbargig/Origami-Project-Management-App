@@ -59,4 +59,7 @@
 <polygon points="680.0,580.0 922.0,580.0 940.0,598.0 940.0,660.0 680.0,660.0" fill="#fff2cc" stroke="#d6b656" stroke-width="2" filter="url(#shadow)"/>
 <polyline points="922.0,580.0 922.0,598.0 940.0,598.0" fill="none" stroke="#d6b656" stroke-width="2"/>
 <text x="810.0" y="609.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#111"><tspan x="810.0" dy="0">QA team handles formal</tspan><tspan x="810.0" dy="16">routing and may send related</tspan><tspan x="810.0" dy="16">tasks back to Self QA</tspan></text>
+<polygon points="1180.0,120.0 1372.0,120.0 1390.0,138.0 1390.0,210.0 1180.0,210.0" fill="#e1d5e7" stroke="#9673a6" stroke-width="2" filter="url(#shadow)"/>
+<polyline points="1372.0,120.0 1372.0,138.0 1390.0,138.0" fill="none" stroke="#9673a6" stroke-width="2"/>
+<text x="1285.0" y="147.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" fill="#111"><tspan x="1285.0" dy="0">Status spelling is</tspan><tspan x="1285.0" dy="15">intentional:</tspan><tspan x="1285.0" dy="15">Task = InProgress</tspan><tspan x="1285.0" dy="15">Epic = In Progress</tspan></text>
 </svg>

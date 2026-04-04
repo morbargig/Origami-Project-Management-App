@@ -29,6 +29,15 @@ This document separates Origami configuration concerns from product intent. Use 
 - Use built-in metadata where possible instead of custom audit fields.
 - Keep budget and progress rollups workflow-driven.
 
+
+## Build Order Context
+
+The build order diagram should be read as a dependency sequence:
+- core users, groups, and entities first
+- permissions and core pages next
+- workflows after the base views exist
+- Gantt, QA Team Board, and notifications after the underlying model is stable
+
 ## Current Setup Reference
 
 The current user and group configuration screenshot is useful as a reference for how roles and team membership are being represented in the workspace.

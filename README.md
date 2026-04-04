@@ -77,12 +77,40 @@ All canonical project documentation lives under `docs/`.
 All diagrams are stored under `assets/diagrams/`.
 
 Primary diagrams:
+
+Concept and structure:
 - [System architecture](assets/diagrams/system-architecture.svg)
-- [QA flow](assets/diagrams/qa-flow.svg)
-- [Gantt logic](assets/diagrams/gantt-logic.svg)
 - [Pages structure](assets/diagrams/pages-structure.svg)
 
+Workflow and delivery control:
+- [QA flow](assets/diagrams/qa-flow.svg)
+
+Timeline and planning:
+- [Gantt logic](assets/diagrams/gantt-logic.svg)
+
+Setup and ownership:
+- [Build order](assets/diagrams/build-order.svg)
+- [Project ownership](assets/diagrams/project-ownership.svg)
+
 Screenshots live under `assets/images/` and are embedded into the relevant docs.
+
+### Inline Diagram Preview
+
+#### System architecture
+
+![System architecture](assets/diagrams/system-architecture.svg)
+
+#### QA flow
+
+![QA flow](assets/diagrams/qa-flow.svg)
+
+#### Gantt logic
+
+![Gantt logic](assets/diagrams/gantt-logic.svg)
+
+#### Pages structure
+
+![Pages structure](assets/diagrams/pages-structure.svg)
 
 ## AI Usage
 
