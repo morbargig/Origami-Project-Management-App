@@ -1,6 +1,6 @@
-# Origami Smart PM — PRD + Build Guide
+# JiraGami — PRD + Build Guide
 
-_Merged export for AI upload or external sharing. Edit `docs/02-product/PRD.md` and `docs/03-implementation/BUILD_GUIDE.md` as the canonical sources._
+_Merged export for AI upload or external sharing. `JiraGami` documents the production system `Origami Smart PM`. Edit `docs/02-product/PRD.md` and `docs/03-implementation/BUILD_GUIDE.md` as the canonical sources._
 
 ## Canonical Sources
 

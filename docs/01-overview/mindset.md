@@ -1,5 +1,7 @@
 # Mindset
 
+This document defines the management documentation mindset for `JiraGami`, while preserving the production truth of `Origami Smart PM`.
+
 ## Core Delivery Sequence
 
 Context -> Goal -> Plan -> Execution -> QA -> Delivery

@@ -1,12 +1,12 @@
-# PRD — Origami Smart Project Management System
+# Product Requirements Document (PRD) — JiraGami
 
-**Documentation order:** [README](../../README.md) -> **PRD (this file)** -> [Build Guide](../03-implementation/BUILD_GUIDE.md)
+**Documentation order:** [README](../../README.md) -> **Product Requirements Document (PRD) (this file)** -> [Build Guide](../03-implementation/BUILD_GUIDE.md)
 
 ## Purpose
 
-This PRD is the canonical product-definition document for Origami Smart PM.
+This Product Requirements Document (PRD) is the canonical product-definition document for `JiraGami`, described as `Origami Smart PM`.
 
-It defines why the system exists, what it contains, how the entity model works, how QA is structured, and what the main user-facing pages should do.
+It defines why the system exists, what it contains, how the entity model works, how Quality Assurance (QA) is structured, and what the main user-facing pages should do.
 
 The Build Guide defines how to implement the same model in Origami.
 
@@ -26,7 +26,7 @@ This is not only a task board. It is a project-management operating model based 
 
 ## Project Management Mindset
 
-Context -> Goal -> Plan -> Execution -> QA -> Delivery
+Context -> Goal -> Plan -> Execution -> Quality Assurance (QA) -> Delivery
 
 Inside the system:
 
@@ -35,10 +35,10 @@ Project -> Epic -> Task
 Each system part maps directly to a project-management concept:
 - Business Context = why the project exists
 - Project Goal = what success looks like
-- Dates / Gantt = time planning
-- Users / Teams / QA = resources and responsibility
+- Dates / Gantt chart = time planning
+- Users / Teams / Quality Assurance (QA) = resources and responsibility
 - Budget fields = cost control
-- QA flow = quality control
+- Quality Assurance (QA) flow = quality control
 - Dashboards = governance and visibility
 
 ## Product Vision
@@ -48,7 +48,7 @@ The vision is to create a single Origami workspace where a manager can:
 - connect the project to a responsible team
 - divide the project into epics
 - divide epics into tasks
-- send work through controlled QA stages
+- send work through controlled Quality Assurance (QA) stages
 - monitor timeline visually
 - track budget simply
 - give each team the right page and permissions
@@ -60,7 +60,7 @@ Origami Smart PM is built on Origami and intentionally uses:
 - native Origami Groups
 - native Origami metadata fields
 - Origami workflows
-- Origami pages, boards, gantt, and dashboard capabilities
+- Origami pages, boards, Gantt chart, and dashboard capabilities
 - custom user fields on native Origami Users
 
 Important Origami constraint:
@@ -73,7 +73,7 @@ Important Origami constraint:
 - Project Managers
 - Delivery Managers
 - Developers / Team Members
-- QA Teams
+- Quality Assurance (QA) Teams
 - Stakeholders / Clients / Managers
 
 ## Scope
@@ -84,16 +84,16 @@ Version 1 includes:
 - Tasks
 - native Origami users and groups
 - native metadata fields
-- Gantt / timeline page
-- Task Kanban
-- Epic Kanban
-- QA Kanban
+- Gantt chart / timeline page
+- Task Kanban board
+- Epic Kanban board
+- Quality Assurance (QA) Kanban board
 - Dashboard
 - Budget tracking
 - Notifications
 - Workflows
 
-Version 1 does not require deep ERP financial logic, billing complexity, or advanced dependency engines.
+Version 1 does not require deep Enterprise Resource Planning (ERP) financial logic, billing complexity, or advanced dependency engines.
 
 ## Core Structure
 
@@ -105,7 +105,7 @@ Project -> Epic -> Task
 
 Diagram: [`../../assets/diagrams/system-architecture.svg`](../../assets/diagrams/system-architecture.svg)
 
-## Teams, Ownership, and QA Structure
+## Teams, Ownership, and Quality Assurance (QA) Structure
 
 This system should use Origami native Users and Groups.
 
@@ -220,9 +220,9 @@ This rule is critical and must remain intact:
 - while the Epic is `In Progress`, `QA Assignee` is only a reviewer and does not own task status updates
 - the reviewer confirms readiness outside the workflow
 - the `Assignee` updates the task status
-- formal routed QA is primarily handled at the Epic level
+- formal routed Quality Assurance (QA) is primarily handled at the Epic level
 
-## QA Model
+## Quality Assurance (QA) Model
 
 ### Task level
 - lightweight validation
@@ -231,10 +231,10 @@ This rule is critical and must remain intact:
 - task status flow: `New -> InProgress -> Self QA -> Done`
 
 ### Epic level
-- formal QA flow
+- formal Quality Assurance (QA) flow
 - epic status flow: `Open -> In Progress -> Ready for QA -> QA -> Done`
 - when Epic becomes `Ready for QA`, `QA Manager` should receive notification or email
-- QA team handles formal QA routing
+- Quality Assurance (QA) team handles formal QA routing
 
 Diagram: [`../../assets/diagrams/qa-flow.svg`](../../assets/diagrams/qa-flow.svg)
 
@@ -279,7 +279,7 @@ Diagram: [`../../assets/diagrams/qa-flow.svg`](../../assets/diagrams/qa-flow.svg
 - when `Epic.Progress %` changes
 - update `Project.Progress %`
 
-### WF-08 Epic QA routing email
+### WF-08 Epic Quality Assurance (QA) routing email
 - when `Epic.Status` changes to `Ready for QA`
 - send email to `QA Manager`
 - include Epic, Project, Owner, dates, and link
@@ -291,7 +291,7 @@ Diagram: [`../../assets/diagrams/qa-flow.svg`](../../assets/diagrams/qa-flow.svg
 - projects by status
 - active epics
 - tasks by status
-- tasks in QA
+- tasks in Quality Assurance (QA)
 - overdue tasks
 - budget planned vs used
 - progress by project
@@ -300,28 +300,28 @@ Diagram: [`../../assets/diagrams/qa-flow.svg`](../../assets/diagrams/qa-flow.svg
 - main projects table
 
 ### Project Details
-- PM main page
+- Project Manager (PM) main page
 - summary + goal + context + epics + tasks + staffing + budget
 
 ### Epic Board
-- Kanban by epic status: `Open | In Progress | Ready for QA | QA | Done`
+- Kanban board by epic status: `Open | In Progress | Ready for QA | QA | Done`
 
 ### Task Board
-- Kanban by task status: `New | InProgress | Self QA | Done`
+- Kanban board by task status: `New | InProgress | Self QA | Done`
 
 ### My Tasks
 - filter by `Assignee = current user`
 
-### QA Queue
+### QA Queue (Quality Assurance Queue)
 - task status = `Self QA`
 - epic status = `Ready for QA` or `QA`
 
-### Gantt / Timeline
+### Gantt Chart / Timeline
 - mostly Project + Epic timeline
 - not overloaded with task-level bars in version 1
 
-### QA Team Board
-- epic-level Kanban: `Ready for QA | QA | Done`
+### QA Team Board (Quality Assurance Team Board)
+- epic-level Kanban board: `Ready for QA | QA | Done`
 
 Diagram: [`../../assets/diagrams/pages-structure.svg`](../../assets/diagrams/pages-structure.svg)
 

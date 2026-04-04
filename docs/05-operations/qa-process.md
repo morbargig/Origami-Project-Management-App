@@ -1,8 +1,8 @@
-# QA Process
+# Quality Assurance (QA) Process
 
 ## Principle
 
-Execution and validation are intentionally separated into lightweight task-level validation and formal epic-level QA.
+Execution and validation are intentionally separated into lightweight task-level validation and formal epic-level Quality Assurance (QA).
 
 ## Task-Level Validation
 
@@ -18,14 +18,14 @@ Execution and validation are intentionally separated into lightweight task-level
 Task status flow:
 - `New -> InProgress -> Self QA -> Done`
 
-## Epic-Level QA
+## Epic-Level Quality Assurance (QA)
 
-- Formal routed QA is primarily handled at the Epic level.
+- Formal routed Quality Assurance (QA) is primarily handled at the Epic level.
 - Epic flow is `Open -> In Progress -> Ready for QA -> QA -> Done`.
 - When an Epic becomes `Ready for QA`, `QA Manager` should receive notification or email.
-- The QA team handles formal QA routing.
-- QA may return work to `In Progress` or send related tasks back to `Self QA` when rework is needed.
+- The Quality Assurance (QA) team handles formal QA routing.
+- Quality Assurance (QA) may return work to `In Progress` or send related tasks back to `Self QA` when rework is needed.
 
 ## Diagram
 
-QA flow: [`../../assets/diagrams/qa-flow.svg`](../../assets/diagrams/qa-flow.svg)
+Quality Assurance (QA) flow: [`../../assets/diagrams/qa-flow.svg`](../../assets/diagrams/qa-flow.svg)

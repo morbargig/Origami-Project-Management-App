@@ -1,12 +1,12 @@
-# Build Guide — Origami Smart Project Management System
+# Build Guide — JiraGami
 
-**Documentation order:** [README](../../README.md) -> [PRD](../02-product/PRD.md) -> **Build Guide (this file)**
+**Documentation order:** [README](../../README.md) -> [Product Requirements Document (PRD)](../02-product/PRD.md) -> **Build Guide (this file)**
 
 ## Purpose
 
-This Build Guide is the canonical implementation document for Origami Smart PM.
+This Build Guide is the canonical implementation document for `JiraGami`, described as `Origami Smart PM`.
 
-Use it to configure the existing product model in Origami without changing the business logic defined in `PRD.md`.
+Use it to configure the existing product model in Origami without changing the business logic defined in the `Product Requirements Document (PRD)`.
 
 ## Build Order
 
@@ -18,8 +18,8 @@ Use it to configure the existing product model in Origami without changing the b
 6. Permissions
 7. Pages
 8. Workflows
-9. Gantt
-10. QA Team Board
+9. Gantt chart
+10. QA Team Board (Quality Assurance Team Board)
 11. Email notifications
 
 Diagram: [`../../assets/diagrams/build-order.svg`](../../assets/diagrams/build-order.svg)
@@ -175,8 +175,8 @@ Priority values:
 5. My Tasks
 6. QA Queue
 7. Dashboard
-8. Gantt
-9. QA Team Board
+8. Gantt chart
+9. QA Team Board (Quality Assurance Team Board)
 
 ## Workflow Build Guide
 
@@ -219,7 +219,7 @@ Priority values:
 
 ## Advanced Setup
 
-### Gantt page
+### Gantt chart page
 - use Project start/end dates
 - use Epic start/end dates
 - use status color

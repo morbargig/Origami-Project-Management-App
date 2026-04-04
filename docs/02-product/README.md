@@ -1,15 +1,20 @@
 # Product
 
-This folder contains the canonical product-definition layer.
+This folder contains the canonical product-definition layer for `JiraGami`, described as `Origami Smart PM`.
 
 ## Files
 
-- [PRD.md](PRD.md) - full product requirements document
+- [PRD.md](PRD.md) - full Product Requirements Document (PRD)
 - [entities.md](entities.md) - Project, Epic, Task, and user-field definitions
-- [workflows.md](workflows.md) - workflow baseline and QA model
+- [workflows.md](workflows.md) - workflow baseline and Quality Assurance (QA) model
 
 ## Use This Folder For
 
 - product truth
 - field and status validation
-- workflow and QA logic review
+- workflow and Quality Assurance (QA) logic review
+- validating whether summaries in other folders still match the production model
+
+## Canonical Note
+
+If any summary document conflicts with this folder, this folder wins.

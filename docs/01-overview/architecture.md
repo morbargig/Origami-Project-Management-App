@@ -36,13 +36,13 @@ Project staffing must not be modeled with group custom fields.
 
 The architecture includes these control layers:
 - entity structure through Project, Epic, and Task
-- responsibility structure through managers, teams, assignees, and QA roles
+- responsibility structure through managers, teams, assignees, and Quality Assurance (QA) roles
 - workflow control through task and epic automation
-- management visibility through Dashboard, Boards, and Gantt
+- management visibility through Dashboard, Boards, and the Gantt chart
 
 ## Diagrams
 
 - [System architecture](../../assets/diagrams/system-architecture.svg)
-- [QA flow](../../assets/diagrams/qa-flow.svg)
-- [Gantt logic](../../assets/diagrams/gantt-logic.svg)
+- [Quality Assurance (QA) flow](../../assets/diagrams/qa-flow.svg)
+- [Gantt chart logic](../../assets/diagrams/gantt-logic.svg)
 - [Pages structure](../../assets/diagrams/pages-structure.svg)

@@ -1,8 +1,8 @@
-# Gantt
+# Gantt Chart
 
 ## Purpose
 
-The Gantt page is a management timeline view for planning and control.
+The Gantt chart page is a management timeline view for planning and control.
 
 ## Version 1 Focus
 
