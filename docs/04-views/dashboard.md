@@ -22,4 +22,4 @@ The current dashboard already shows the right PM-oriented direction: task status
 
 ## Related Diagram
 
-Page structure: [`../../assets/diagrams/pages-structure.drawio`](../../assets/diagrams/pages-structure.drawio)
+Page structure: [`../../assets/diagrams/pages-structure.svg`](../../assets/diagrams/pages-structure.svg)

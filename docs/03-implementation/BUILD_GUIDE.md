@@ -22,7 +22,7 @@ Use it to configure the existing product model in Origami without changing the b
 10. QA Team Board
 11. Email notifications
 
-Diagram: [`../../assets/diagrams/build-order.drawio`](../../assets/diagrams/build-order.drawio)
+Diagram: [`../../assets/diagrams/build-order.svg`](../../assets/diagrams/build-order.svg)
 
 ## User and Group Setup
 

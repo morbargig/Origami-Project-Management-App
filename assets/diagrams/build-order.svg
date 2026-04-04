@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img">
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+<path d="M0,0 L10,3 L0,6 z" fill="#555" />
+</marker>
+<filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1" stdDeviation="1" flood-opacity="0.15"/></filter>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<path d="M 180.0 145.0 L 195.0 145.0 L 195.0 145.0 L 210.0 145.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 350.0 145.0 L 365.0 145.0 L 365.0 145.0 L 380.0 145.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 520.0 145.0 L 535.0 145.0 L 535.0 145.0 L 550.0 145.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 690.0 145.0 L 705.0 145.0 L 705.0 145.0 L 720.0 145.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 860.0 145.0 L 875.0 145.0 L 875.0 145.0 L 890.0 145.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 1030.0 145.0 L 1045.0 145.0 L 1045.0 145.0 L 1060.0 145.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 1200.0 145.0 L 1215.0 145.0 L 1215.0 145.0 L 1230.0 145.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 1370.0 145.0 L 1385.0 145.0 L 1385.0 105.0 L 1400.0 105.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 1460.0 130.0 L 1460.0 130.0 L 1460.0 145.0 L 1460.0 145.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 1460.0 195.0 L 1460.0 195.0 L 1460.0 210.0 L 1460.0 210.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40.0" y="120.0" width="140.0" height="50.0" rx="12" ry="12" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2" filter="url(#shadow)"/>
+<text x="110.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">1. Users and Groups</text>
+<rect x="210.0" y="120.0" width="140.0" height="50.0" rx="12" ry="12" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2" filter="url(#shadow)"/>
+<text x="280.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">2. User custom fields</text>
+<rect x="380.0" y="120.0" width="140.0" height="50.0" rx="12" ry="12" fill="#d5e8d4" stroke="#82b366" stroke-width="2" filter="url(#shadow)"/>
+<text x="450.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">3. Project entity</text>
+<rect x="550.0" y="120.0" width="140.0" height="50.0" rx="12" ry="12" fill="#d5e8d4" stroke="#82b366" stroke-width="2" filter="url(#shadow)"/>
+<text x="620.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">4. Epic entity</text>
+<rect x="720.0" y="120.0" width="140.0" height="50.0" rx="12" ry="12" fill="#d5e8d4" stroke="#82b366" stroke-width="2" filter="url(#shadow)"/>
+<text x="790.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">5. Task entity</text>
+<rect x="890.0" y="120.0" width="140.0" height="50.0" rx="12" ry="12" fill="#ffe6cc" stroke="#d79b00" stroke-width="2" filter="url(#shadow)"/>
+<text x="960.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">6. Permissions</text>
+<rect x="1060.0" y="120.0" width="140.0" height="50.0" rx="12" ry="12" fill="#ffe6cc" stroke="#d79b00" stroke-width="2" filter="url(#shadow)"/>
+<text x="1130.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">7. Pages</text>
+<rect x="1230.0" y="120.0" width="140.0" height="50.0" rx="12" ry="12" fill="#ffe6cc" stroke="#d79b00" stroke-width="2" filter="url(#shadow)"/>
+<text x="1300.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">8. Workflows</text>
+<rect x="1400.0" y="80.0" width="120.0" height="50.0" rx="12" ry="12" fill="#f8cecc" stroke="#b85450" stroke-width="2" filter="url(#shadow)"/>
+<text x="1460.0" y="110.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">9. Gantt</text>
+<rect x="1400.0" y="145.0" width="120.0" height="50.0" rx="12" ry="12" fill="#f8cecc" stroke="#b85450" stroke-width="2" filter="url(#shadow)"/>
+<text x="1460.0" y="175.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">10. QA Team Board</text>
+<rect x="1400.0" y="210.0" width="120.0" height="50.0" rx="12" ry="12" fill="#f8cecc" stroke="#b85450" stroke-width="2" filter="url(#shadow)"/>
+<text x="1460.0" y="240.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">11. Email notifications</text>
+</svg>

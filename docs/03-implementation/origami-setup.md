@@ -37,5 +37,5 @@ The current user and group configuration screenshot is useful as a reference for
 
 ## Supporting Diagrams
 
-- [Build order](../../assets/diagrams/build-order.drawio)
-- [Project ownership](../../assets/diagrams/project-ownership.drawio)
+- [Build order](../../assets/diagrams/build-order.svg)
+- [Project ownership](../../assets/diagrams/project-ownership.svg)

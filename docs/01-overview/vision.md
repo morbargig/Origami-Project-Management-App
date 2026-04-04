@@ -51,4 +51,4 @@ It does not require deep ERP finance logic or advanced dependency engines in the
 
 ## Diagram
 
-System architecture: [`../../assets/diagrams/system-architecture.drawio`](../../assets/diagrams/system-architecture.drawio)
+System architecture: [`../../assets/diagrams/system-architecture.svg`](../../assets/diagrams/system-architecture.svg)

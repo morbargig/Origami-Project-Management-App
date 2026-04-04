@@ -45,4 +45,4 @@ This screenshot shows the current task table with delivery, QA, hours, dates, an
 
 ## Related Diagram
 
-Page structure: [`../../assets/diagrams/pages-structure.drawio`](../../assets/diagrams/pages-structure.drawio)
+Page structure: [`../../assets/diagrams/pages-structure.svg`](../../assets/diagrams/pages-structure.svg)

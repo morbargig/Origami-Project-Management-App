@@ -103,7 +103,7 @@ Project -> Epic -> Task
 - Epic = workstream or major deliverable
 - Task = execution level
 
-Diagram: [`../../assets/diagrams/system-architecture.drawio`](../../assets/diagrams/system-architecture.drawio)
+Diagram: [`../../assets/diagrams/system-architecture.svg`](../../assets/diagrams/system-architecture.svg)
 
 ## Teams, Ownership, and QA Structure
 
@@ -236,7 +236,7 @@ This rule is critical and must remain intact:
 - when Epic becomes `Ready for QA`, `QA Manager` should receive notification or email
 - QA team handles formal QA routing
 
-Diagram: [`../../assets/diagrams/qa-flow.drawio`](../../assets/diagrams/qa-flow.drawio)
+Diagram: [`../../assets/diagrams/qa-flow.svg`](../../assets/diagrams/qa-flow.svg)
 
 ## Workflow Baseline
 
@@ -323,7 +323,7 @@ Diagram: [`../../assets/diagrams/qa-flow.drawio`](../../assets/diagrams/qa-flow.
 ### QA Team Board
 - epic-level Kanban: `Ready for QA | QA | Done`
 
-Diagram: [`../../assets/diagrams/pages-structure.drawio`](../../assets/diagrams/pages-structure.drawio)
+Diagram: [`../../assets/diagrams/pages-structure.svg`](../../assets/diagrams/pages-structure.svg)
 
 ## User Custom Fields
 

@@ -40,4 +40,4 @@
 
 ## Related Diagram
 
-Pages structure: [`../../assets/diagrams/pages-structure.drawio`](../../assets/diagrams/pages-structure.drawio)
+Pages structure: [`../../assets/diagrams/pages-structure.svg`](../../assets/diagrams/pages-structure.svg)

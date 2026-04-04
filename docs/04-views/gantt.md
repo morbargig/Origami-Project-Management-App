@@ -27,4 +27,4 @@ Do not overload version 1 with task-level bars.
 
 ## Related Diagram
 
-Gantt logic: [`../../assets/diagrams/gantt-logic.drawio`](../../assets/diagrams/gantt-logic.drawio)
+Gantt logic: [`../../assets/diagrams/gantt-logic.svg`](../../assets/diagrams/gantt-logic.svg)

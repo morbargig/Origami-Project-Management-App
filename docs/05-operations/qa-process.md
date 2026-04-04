@@ -28,4 +28,4 @@ Task status flow:
 
 ## Diagram
 
-QA flow: [`../../assets/diagrams/qa-flow.drawio`](../../assets/diagrams/qa-flow.drawio)
+QA flow: [`../../assets/diagrams/qa-flow.svg`](../../assets/diagrams/qa-flow.svg)

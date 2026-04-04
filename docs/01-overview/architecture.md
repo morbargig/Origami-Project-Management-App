@@ -42,5 +42,5 @@ The architecture includes these control layers:
 
 ## Diagrams
 
-- [System architecture](../../assets/diagrams/system-architecture.drawio)
-- [QA flow](../../assets/diagrams/qa-flow.drawio)
+- [System architecture](../../assets/diagrams/system-architecture.svg)
+- [QA flow](../../assets/diagrams/qa-flow.svg)

@@ -77,10 +77,10 @@ All canonical project documentation lives under `docs/`.
 All diagrams are stored under `assets/diagrams/`.
 
 Primary diagrams:
-- [System architecture](assets/diagrams/system-architecture.drawio)
-- [QA flow](assets/diagrams/qa-flow.drawio)
-- [Gantt logic](assets/diagrams/gantt-logic.drawio)
-- [Pages structure](assets/diagrams/pages-structure.drawio)
+- [System architecture](assets/diagrams/system-architecture.svg)
+- [QA flow](assets/diagrams/qa-flow.svg)
+- [Gantt logic](assets/diagrams/gantt-logic.svg)
+- [Pages structure](assets/diagrams/pages-structure.svg)
 
 Screenshots live under `assets/images/` and are embedded into the relevant docs.
 

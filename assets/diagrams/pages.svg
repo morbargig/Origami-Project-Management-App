@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1100" viewBox="0 0 1700 1100" role="img">
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+<path d="M0,0 L10,3 L0,6 z" fill="#555" />
+</marker>
+<filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1" stdDeviation="1" flood-opacity="0.15"/></filter>
+</defs>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<path d="M 795.0 100.0 L 795.0 100.0 L 795.0 160.0 L 795.0 160.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 795.0 220.0 L 795.0 220.0 L 795.0 280.0 L 795.0 280.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 700.0 310.0 L 640.0 310.0 L 640.0 450.0 L 580.0 450.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 795.0 340.0 L 750.0 340.0 L 750.0 420.0 L 705.0 420.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 795.0 340.0 L 855.0 340.0 L 855.0 420.0 L 915.0 420.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 890.0 310.0 L 965.0 310.0 L 965.0 450.0 L 1040.0 450.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 705.0 480.0 L 655.0 480.0 L 655.0 560.0 L 605.0 560.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M 915.0 480.0 L 960.0 480.0 L 960.0 560.0 L 1005.0 560.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="700.0" y="40.0" width="190.0" height="60.0" rx="12" ry="12" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2" filter="url(#shadow)"/>
+<text x="795.0" y="75.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111">Executive Dashboard</text>
+<rect x="700.0" y="160.0" width="190.0" height="60.0" rx="12" ry="12" fill="#d5e8d4" stroke="#82b366" stroke-width="2" filter="url(#shadow)"/>
+<text x="795.0" y="195.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111">Projects List</text>
+<rect x="700.0" y="280.0" width="190.0" height="60.0" rx="12" ry="12" fill="#fff2cc" stroke="#d6b656" stroke-width="2" filter="url(#shadow)"/>
+<text x="795.0" y="315.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111">Project Details</text>
+<rect x="410.0" y="420.0" width="170.0" height="60.0" rx="12" ry="12" fill="#ffe6cc" stroke="#d79b00" stroke-width="2" filter="url(#shadow)"/>
+<text x="495.0" y="455.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">Epic Board</text>
+<rect x="620.0" y="420.0" width="170.0" height="60.0" rx="12" ry="12" fill="#ffe6cc" stroke="#d79b00" stroke-width="2" filter="url(#shadow)"/>
+<text x="705.0" y="455.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">Task Board</text>
+<rect x="830.0" y="420.0" width="170.0" height="60.0" rx="12" ry="12" fill="#f8cecc" stroke="#b85450" stroke-width="2" filter="url(#shadow)"/>
+<text x="915.0" y="455.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">QA Queue</text>
+<rect x="1040.0" y="420.0" width="170.0" height="60.0" rx="12" ry="12" fill="#e1d5e7" stroke="#9673a6" stroke-width="2" filter="url(#shadow)"/>
+<text x="1125.0" y="455.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">Gantt</text>
+<rect x="520.0" y="560.0" width="170.0" height="60.0" rx="12" ry="12" fill="#d5e8d4" stroke="#82b366" stroke-width="2" filter="url(#shadow)"/>
+<text x="605.0" y="595.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">My Tasks</text>
+<rect x="920.0" y="560.0" width="170.0" height="60.0" rx="12" ry="12" fill="#f8cecc" stroke="#b85450" stroke-width="2" filter="url(#shadow)"/>
+<text x="1005.0" y="595.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">QA Team Board</text>
+</svg>

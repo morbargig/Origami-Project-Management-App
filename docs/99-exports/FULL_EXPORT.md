@@ -19,7 +19,7 @@ The repo also provides reorganized documentation under:
 
 ## Core Diagrams
 
-- `assets/diagrams/system-architecture.drawio`
-- `assets/diagrams/qa-flow.drawio`
-- `assets/diagrams/gantt-logic.drawio`
-- `assets/diagrams/pages-structure.drawio`
+- `assets/diagrams/system-architecture.svg`
+- `assets/diagrams/qa-flow.svg`
+- `assets/diagrams/gantt-logic.svg`
+- `assets/diagrams/pages-structure.svg`
