@@ -2,9 +2,9 @@
 
 ## Purpose
 
-This document defines management success measures for the documentation and delivery view of `JiraGami`.
+This document defines management success measures for the documentation and governance view of `JiraGami`.
 
-These are management metrics for visibility and governance. They do not change the production formulas already documented in the product and implementation layers.
+These are visibility and control measures. They do not replace product formulas or workflow rules already documented elsewhere.
 
 ## Management Success Measures
 

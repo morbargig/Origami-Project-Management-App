@@ -1,6 +1,6 @@
 # Mindset
 
-This document defines the management documentation mindset for `JiraGami` while preserving the canonical product truth of `JiraGami` on the `Origami` platform.
+This document defines how `JiraGami` should be explained at the management level without changing the live product model.
 
 ## Core Delivery Sequence
 
@@ -21,16 +21,19 @@ Every major part of the system maps directly to a project-management need:
 - QA flow supports quality control
 - dashboards support governance and visibility
 
-## Separation of Concerns
+## Documentation Boundary
 
-- `PRD.md` defines why the system exists and what it contains
-- `BUILD_GUIDE.md` defines how to configure it in Origami
-- `docs/04-views/` describes user-facing pages
-- `docs/05-operations/` describes how teams should run the model
+- `PRD.md` defines what the product is
+- `BUILD_GUIDE.md` defines how the product is configured in Origami
+- `docs/04-views/` defines the page and view baseline
+- `docs/05-operations/` defines how teams run the model in practice
+- `docs/06-governance/` defines how the project is governed, reported, and controlled
+
+Summary and governance documents must clarify the product, not reinterpret it.
 
 ## Naming Consistency
 
-Use these logic terms consistently:
+Use these terms consistently:
 - `System Managers`
 - `Project Managers`
 - `Delivery Manager`

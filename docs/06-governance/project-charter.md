@@ -4,76 +4,72 @@
 
 `JiraGami`
 
+## Charter Purpose
+
+This charter defines how the `JiraGami` documentation project should be understood, governed, and maintained around the live production product.
+
+It does not redefine the application. It defines how documentation and governance should support it.
+
 ## Project Identity
 
 - project name: `JiraGami`
 - project manager: `Mor Bargig`
 - product type: `Smart Project Management system`
 - deployment platform: `Origami`
-- product inspiration: `Jira-style project management structure and practices`
-
-Working description:
-
-`JiraGami` is a Smart Project Management product running on the `Origami` platform.
-
-## Charter Purpose
-
-This charter provides the executive management framing for the project documentation set.
-
-It does not redefine the product. It frames how `JiraGami` should be understood, governed, and communicated.
 
 ## Business Objective
 
-Create a professional, production-ready project management operating model for `JiraGami` so managers and stakeholders can:
-- understand the system quickly
-- navigate one clean documentation structure
+Maintain a professional, production-safe documentation system for `JiraGami` so managers and stakeholders can:
+- understand the product quickly
 - work from one canonical product definition
+- navigate implementation and operations guidance reliably
 - manage delivery with clearer governance and reporting
 
 ## Problem Statement
 
-Without a professional management documentation layer, products often become difficult to explain, govern, and scale.
+Without a disciplined documentation layer, even a working product becomes harder to explain, govern, onboard, and report on.
 
-The core product may work correctly, but management communication becomes fragmented across product notes, setup guidance, and operational descriptions.
+The risk is not only confusion. It is also drift between product truth, implementation guidance, and management summaries.
 
-## Project Objective
+## Project Objectives
 
-Establish a professional Project Manager-owned documentation system that:
-- preserves the current canonical product truth
-- presents the product clearly to managers and stakeholders
-- separates product, implementation, operations, and governance concerns
-- improves reporting, accountability, and onboarding quality
+This documentation effort should:
+- preserve canonical product truth
+- present the product clearly to managers and stakeholders
+- separate product, implementation, operations, and governance concerns
+- improve reporting, accountability, and onboarding quality
+- keep all summary documents aligned with the live product model
 
 ## Success Definition
 
-This documentation effort is successful when:
-- a manager can understand the project structure without reading every file
-- the Product Requirements Document (PRD) remains the clear source of product truth
-- governance documents support delivery without changing product logic
-- implementation and operations documentation remain aligned with the product model
+This project is successful when:
+- a new reader can understand `JiraGami` quickly from the first few documents
+- the Product Requirements Document (PRD) remains the source of product truth
+- governance documents improve control and visibility without changing product meaning
+- implementation and operations documentation remain aligned with the canonical model
 
 ## Scope Summary
 
 Included in this documentation project:
-- documentation structure refinement
-- branding and wording cleanup
-- governance documents for management control
-- navigation, canonical-source rules, and cross-linking
+- wording and structure cleanup
+- document separation and canonical-source rules
+- governance, reporting, and communication artifacts
+- navigation and cross-linking improvements
 
 Excluded from this documentation project:
 - application behavior changes
-- workflow changes
+- workflow redesign
 - field changes
 - data model changes
 - permissions model changes
 - production configuration changes
 
-## Stakeholder Summary
+## Stakeholders
 
 - Project Manager
 - Delivery Manager
-- Product owner or product lead
-- Implementation and configuration owner
+- Product Lead
+- Implementation Owner
 - Quality Assurance (QA) leads
 - Executive or sponsor-level reviewers
 

@@ -1,6 +1,6 @@
 # Exports
 
-This folder contains merged or shareable export documents for `JiraGami`.
+This folder contains shareable export documents for `JiraGami`.
 
 ## Files
 
@@ -11,4 +11,4 @@ This folder contains merged or shareable export documents for `JiraGami`.
 
 These files are export artifacts for sharing and Artificial Intelligence (AI) upload.
 
-The canonical editable documents remain under the main `docs/` sections.
+They are summaries, not the editable source of truth. The canonical editable documents remain under the main `docs/` sections.

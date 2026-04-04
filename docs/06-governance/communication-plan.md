@@ -2,14 +2,14 @@
 
 ## Purpose
 
-This communication plan defines how project information should be shared for `JiraGami`.
+This communication plan defines how `JiraGami` information should be shared across management, delivery, implementation, QA, and stakeholder audiences.
 
 ## Communication Principles
 
-- communicate from canonical sources
-- keep management summaries short and decision-oriented
+- communicate from canonical sources whenever product truth is involved
+- keep management summaries short, decision-oriented, and traceable to source documents
 - avoid copying product truth into multiple places unnecessarily
-- use dashboard, workflow, and budget documents as reporting references
+- use dashboard, workflow, budget, and governance documents as reporting references
 
 ## Audience And Cadence
 

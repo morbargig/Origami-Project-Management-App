@@ -1,6 +1,6 @@
 # Views
 
-This folder contains the page and view model for `JiraGami` on the `Origami` platform.
+This folder contains the canonical page and view baseline for `JiraGami`.
 
 ## Files
 

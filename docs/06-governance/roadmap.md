@@ -2,37 +2,38 @@
 
 ## Purpose
 
-This roadmap provides a management view of documentation and governance maturity for `JiraGami`.
+This roadmap provides a management view of documentation maturity for `JiraGami`.
 
-It does not redefine the product roadmap inside the application.
+It does not replace the product roadmap inside the application.
 
 ## Current State
 
-The current repository already contains:
+The repository already contains:
 - a Product Requirements Document (PRD)
 - implementation guidance
-- view documentation
+- page and view documentation
 - operating model documentation
+- governance controls
 - diagrams and screenshots
 
-## Near-Term Documentation Priorities
+## Documentation Priorities
 
 ### Phase 1
 
-- establish executive navigation
-- add governance documents
-- clarify canonical-source ownership
-- reduce duplicate explanations across overview and product layers
+- keep top-level product framing clear
+- maintain clean navigation between canonical and summary layers
+- reduce duplicate explanations across overview, product, and governance docs
 
 ### Phase 2
 
-- strengthen exports and stakeholder-ready summaries
-- tighten reporting definitions
-- add maintenance rules for future document updates
+- strengthen stakeholder-ready exports and summaries
+- tighten reporting definitions and management references
+- keep ownership and accountability artifacts current
 
 ### Phase 3
 
 - maintain governance logs over time
+- review canonical-source boundaries regularly
 - keep roadmap, RAID, and decision history current as `JiraGami` evolves
 
 ## Management Themes

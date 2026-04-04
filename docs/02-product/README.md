@@ -1,6 +1,6 @@
 # Product
 
-This folder contains the canonical product-definition layer for `JiraGami`, a Smart Project Management product deployed on the `Origami` platform.
+This folder contains the canonical product-definition layer for `JiraGami`.
 
 ## Files
 
@@ -13,7 +13,7 @@ This folder contains the canonical product-definition layer for `JiraGami`, a Sm
 - product truth
 - field and status validation
 - workflow and Quality Assurance (QA) logic review
-- validating whether summaries in other folders still match the product model
+- checking whether summary documents still match the live product model
 
 ## Canonical Note
 

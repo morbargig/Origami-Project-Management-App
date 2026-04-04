@@ -1,6 +1,6 @@
 # Diagrams
 
-This folder contains GitHub-previewable SVG diagrams and their editable draw.io source files for `JiraGami`.
+This folder contains the visual reference set for `JiraGami`, including GitHub-previewable SVG diagrams and their editable draw.io source files.
 
 ## Preview Files
 
@@ -20,4 +20,4 @@ The matching `.drawio` files are kept in the same folder as the editable source 
 
 - architecture review
 - QA flow validation
-- page navigation and gantt logic review
+- page navigation and Gantt logic review

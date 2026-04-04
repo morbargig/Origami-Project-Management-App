@@ -1,6 +1,6 @@
 # Implementation
 
-This folder contains the canonical implementation guidance for `JiraGami` on the `Origami` platform.
+This folder contains the canonical implementation guidance for configuring `JiraGami` on the `Origami` platform.
 
 ## Files
 

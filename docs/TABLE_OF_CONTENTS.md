@@ -2,17 +2,27 @@
 
 ## Purpose
 
-This document is the master table of contents for the `JiraGami` project documentation repository.
+This document is the master navigation file for the `JiraGami` documentation repository.
 
-`JiraGami` is a Smart Project Management product deployed on the `Origami` platform and documented here in a professional Project Manager-style structure.
+Use it to move between product truth, implementation guidance, operating rules, and governance material without mixing their responsibilities.
 
-## Project Identity
+## Product Identity
 
 - project name: `JiraGami`
 - project manager: `Mor Bargig`
 - product type: `Smart Project Management system`
 - deployment platform: `Origami`
-- product inspiration: `Jira-style project management concepts and delivery structure`
+- product positioning: structured project delivery with Quality Assurance (QA) control and management visibility
+
+## Canonical Truth
+
+Use these as the authoritative references for the live product:
+- product definition: [02-product/PRD.md](02-product/PRD.md)
+- implementation guidance: [03-implementation/BUILD_GUIDE.md](03-implementation/BUILD_GUIDE.md)
+- page baseline: [04-views/pages.md](04-views/pages.md)
+- operating model: [05-operations/README.md](05-operations/README.md)
+
+Governance documents summarize, report, and control the project, but they must not redefine the product model.
 
 ## Main Document Set
 
@@ -52,7 +62,7 @@ This document is the master table of contents for the `JiraGami` project documen
 - [05-operations/delivery-flow.md](05-operations/delivery-flow.md)
 - [05-operations/budget-model.md](05-operations/budget-model.md)
 
-### Project Management
+### Governance
 
 - [06-governance/README.md](06-governance/README.md)
 - [06-governance/PDR.md](06-governance/PDR.md)
@@ -72,19 +82,24 @@ This document is the master table of contents for the `JiraGami` project documen
 - [99-exports/FULL_EXPORT.md](99-exports/FULL_EXPORT.md)
 - [99-exports/PRD_BUILD_MERGED.md](99-exports/PRD_BUILD_MERGED.md)
 
-## Canonical Ownership
+## Suggested Reading Paths
 
-- the `PRD` is the canonical product-definition source
-- the `BUILD_GUIDE` is the canonical implementation source
-- the `pages` and `operations` docs remain the canonical baseline for views and operating logic
-- the `06-governance` section contains professional project management control documents
-
-## Suggested Reading Order
-
-1. [README.md](../README.md)
-2. [06-governance/PDR.md](06-governance/PDR.md)
-3. [06-governance/project-charter.md](06-governance/project-charter.md)
+For executive orientation:
+1. [../README.md](../README.md)
+2. [01-overview/vision.md](01-overview/vision.md)
+3. [06-governance/PDR.md](06-governance/PDR.md)
 4. [02-product/PRD.md](02-product/PRD.md)
-5. [03-implementation/BUILD_GUIDE.md](03-implementation/BUILD_GUIDE.md)
-6. [04-views/pages.md](04-views/pages.md)
-7. [05-operations/qa-process.md](05-operations/qa-process.md)
+
+For product and implementation work:
+1. [02-product/PRD.md](02-product/PRD.md)
+2. [03-implementation/BUILD_GUIDE.md](03-implementation/BUILD_GUIDE.md)
+3. [04-views/pages.md](04-views/pages.md)
+4. [05-operations/qa-process.md](05-operations/qa-process.md)
+
+For governance and reporting:
+1. [06-governance/PDR.md](06-governance/PDR.md)
+2. [06-governance/project-charter.md](06-governance/project-charter.md)
+3. [06-governance/scope-baseline.md](06-governance/scope-baseline.md)
+4. [06-governance/roadmap.md](06-governance/roadmap.md)
+5. [06-governance/raid-log.md](06-governance/raid-log.md)
+6. [06-governance/project-status-report.md](06-governance/project-status-report.md)

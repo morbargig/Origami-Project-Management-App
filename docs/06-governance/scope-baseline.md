@@ -2,15 +2,15 @@
 
 ## Purpose
 
-This scope baseline defines the documentation scope for the `JiraGami` management layer for the `JiraGami` product on the `Origami` platform.
+This scope baseline defines what the `JiraGami` documentation and governance layer may change and what it must preserve.
 
 ## In Scope
 
-- executive project framing
+- executive framing and product explanation
 - Product Requirements Document (PRD) positioning and navigation
 - implementation and operations documentation alignment
 - governance and reporting documents for managers
-- terminology standardization
+- terminology and identity standardization
 - canonical-source rules
 - stakeholder communication structure
 
@@ -22,22 +22,22 @@ This scope baseline defines the documentation scope for the `JiraGami` managemen
 - entity or field changes
 - permissions logic changes
 - page behavior changes
-- diagram meaning changes beyond wording and navigation context
+- changes to production meaning disguised as documentation edits
 
 ## Assumptions
 
-- `JiraGami` already has a defined product baseline
-- the current PRD and Build Guide reflect the intended production baseline
+- `JiraGami` already has a defined live product baseline
+- the current PRD and Build Guide reflect the intended production truth
 - documentation should support management, not redesign the product
-- existing field names and workflow terms must remain exact where they describe production truth
+- existing field names and workflow terms must remain exact where they describe product behavior
 
 ## Constraints
 
-- the product model must remain unchanged
-- the documentation must stay internally consistent
-- governance docs must be lightweight and useful, not bureaucratic overhead
-- new PM artifacts must support the current delivery model rather than inventing a different one
+- the product model must remain unchanged unless canonical product docs are intentionally updated first
+- the documentation set must stay internally consistent
+- governance docs must remain lightweight and useful
+- summary documents must never become an alternate source of product truth
 
 ## Scope Control Rule
 
-If a future documentation change would alter product truth, that change must be handled in the canonical product or implementation documents first, not in governance summaries.
+If a future change would alter product truth, it must be handled in the canonical product or implementation documents first, and only then reflected in overview or governance summaries.

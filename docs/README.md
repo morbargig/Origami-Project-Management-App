@@ -1,35 +1,32 @@
 # Docs
 
-This folder contains the professional Project Manager-style documentation set for the `JiraGami` project.
+This folder contains the structured documentation set for the live `JiraGami` product on the `Origami` platform.
 
-`JiraGami` is a Smart Project Management product deployed on the `Origami` platform and documented here as a professionally governed project.
+## How To Use This Folder
 
-## Core Navigation
-
-- [TABLE_OF_CONTENTS.md](TABLE_OF_CONTENTS.md) - master table of contents for all project documents
-- [01-overview](01-overview/README.md) - executive context, terminology, and architecture summaries
-- [02-product](02-product/README.md) - Product Requirements Document (PRD), entities, and workflow logic
-- [03-implementation](03-implementation/README.md) - Origami configuration and permissions guidance
-- [04-views](04-views/README.md) - dashboard, boards, Gantt chart, and page baseline
-- [05-operations](05-operations/README.md) - Quality Assurance (QA), delivery flow, and budget handling
-- [06-governance](06-governance/README.md) - project management documents such as PDR, charter, RAID, RACI, communications, and status reporting
-- [99-exports](99-exports/README.md) - export-ready combined artifacts
+- start with [TABLE_OF_CONTENTS.md](TABLE_OF_CONTENTS.md) for the full map
+- use [01-overview](01-overview/README.md) for executive context and orientation
+- use [02-product](02-product/README.md) for product truth
+- use [03-implementation](03-implementation/README.md) for Origami configuration guidance
+- use [04-views](04-views/README.md) for page and navigation baselines
+- use [05-operations](05-operations/README.md) for delivery and Quality Assurance (QA) operating rules
+- use [06-governance](06-governance/README.md) for project control, reporting, and management artifacts
+- use [99-exports](99-exports/README.md) for shareable summary exports
 
 ## Canonical Ownership
 
-- `02-product/` is the canonical product truth
-- `03-implementation/` is the canonical implementation truth
+- `02-product/` is the canonical product-definition layer
+- `03-implementation/` is the canonical implementation layer
 - `04-views/` is the canonical page and view baseline
 - `05-operations/` is the canonical operating model
-- `06-governance/` is the canonical project management layer for oversight, planning, reporting, and control
+- `06-governance/` is the management and reporting layer that supports the product without redefining it
 
-## Recommended Reading Order
+## Suggested Reading Order
 
 1. `TABLE_OF_CONTENTS.md`
-2. `01-overview/`
-3. `06-governance/PDR.md`
-4. `02-product/`
-5. `03-implementation/`
-6. `04-views/`
-7. `05-operations/`
-8. `06-governance/`
+2. `01-overview/vision.md`
+3. `02-product/PRD.md`
+4. `03-implementation/BUILD_GUIDE.md`
+5. `04-views/pages.md`
+6. `05-operations/qa-process.md`
+7. `06-governance/PDR.md`

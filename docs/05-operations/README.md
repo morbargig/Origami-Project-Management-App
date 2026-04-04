@@ -1,6 +1,6 @@
 # Operations
 
-This folder contains the operating model for `JiraGami` delivery, Quality Assurance (QA), and budget handling.
+This folder contains the canonical operating model for `JiraGami` delivery, Quality Assurance (QA), and budget handling.
 
 ## Files
 
@@ -16,4 +16,4 @@ This folder contains the operating model for `JiraGami` delivery, Quality Assura
 
 ## Canonical Note
 
-This folder defines how teams should run the model in practice once the production structure is in place.
+This folder defines how teams should run the model in practice once the product structure is in place.

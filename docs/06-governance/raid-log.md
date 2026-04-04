@@ -2,13 +2,13 @@
 
 ## Purpose
 
-This document tracks management-level `Risks`, `Assumptions`, `Issues`, and `Dependencies` for the documentation and governance layer.
+This document tracks management-level `Risks`, `Assumptions`, `Issues`, and `Dependencies` for the `JiraGami` documentation and governance layer.
 
 ## Risks
 
-- documentation duplication could confuse stakeholders about the canonical source
-- future edits could unintentionally change wording that represents production truth
-- governance documents could become outdated if not maintained with the canonical docs
+- duplicated explanations may confuse readers about the canonical source
+- future edits may unintentionally weaken alignment with production truth
+- governance documents may drift if they are not reviewed alongside canonical docs
 
 ## Assumptions
 
@@ -18,19 +18,18 @@ This document tracks management-level `Risks`, `Assumptions`, `Issues`, and `Dep
 
 ## Issues
 
-- some current topics are repeated across overview, product, and implementation files
-- manager-facing governance artifacts were previously missing from the repository
-- export files are lighter than their names currently suggest
+- some concepts still appear in multiple layers and need regular consistency checks
+- exports are summaries and may be mistaken for editable source documents
 
 ## Dependencies
 
-- governance docs depend on the Product Requirements Document (PRD) staying authoritative
-- implementation documentation depends on the Build Guide staying authoritative
-- manager reporting depends on dashboard, budget, workflow, and page documents remaining aligned
+- governance docs depend on the Product Requirements Document (PRD) remaining authoritative
+- implementation documentation depends on the Build Guide remaining authoritative
+- reporting documents depend on dashboard, workflow, budget, and page docs remaining aligned
 
 ## Review Cadence
 
 Review this log whenever:
 - canonical product documents change
-- major governance documents are added or updated
+- major governance documents are updated
 - new product assumptions or delivery risks appear

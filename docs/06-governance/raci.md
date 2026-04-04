@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This matrix defines management accountability for the documentation and delivery model around `JiraGami`.
+This matrix defines management accountability for documentation, delivery coordination, and governance around `JiraGami`.
 
 `RACI` means:
 - `Responsible`
@@ -58,6 +58,6 @@ This matrix defines management accountability for the documentation and delivery
 
 ## Reference Rule
 
-Where role behavior is defined by product or operational logic, the canonical reference remains:
+Where role behavior is defined by product or operational logic, the canonical references remain:
 - [../02-product/PRD.md](../02-product/PRD.md)
 - [../05-operations/qa-process.md](../05-operations/qa-process.md)

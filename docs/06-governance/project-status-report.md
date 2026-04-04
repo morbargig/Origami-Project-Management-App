@@ -2,7 +2,9 @@
 
 ## Purpose
 
-This document provides the standard professional status-reporting format for the `JiraGami` project.
+This document provides the standard status-reporting structure for `JiraGami`.
+
+Use it to summarize progress, scope position, risks, and management decisions without duplicating product truth.
 
 ## Reporting Header
 

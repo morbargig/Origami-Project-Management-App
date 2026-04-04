@@ -2,9 +2,9 @@
 
 ## Purpose
 
-This `Project Definition Report (PDR)` defines the `JiraGami` project at the executive and management level.
+This `Project Definition Report (PDR)` provides the executive and management framing for `JiraGami`.
 
-It is the project-management counterpart to the Product Requirements Document (PRD).
+It explains what the project is, why the documentation set exists, and how governance should support the live product without redefining it.
 
 ## Project Identity
 
@@ -12,35 +12,44 @@ It is the project-management counterpart to the Product Requirements Document (P
 - project manager: `Mor Bargig`
 - product type: `Smart Project Management system`
 - deployment platform: `Origami`
-- product inspiration: `Jira-style project management concepts adapted to the Origami platform`
+- project focus: structured project delivery with Quality Assurance (QA) control and management visibility
 
 ## Project Statement
 
-`JiraGami` is a Smart Project Management product running on the `Origami` platform.
+`JiraGami` is a live Smart Project Management product running on the `Origami` platform.
 
-It is designed to provide a structured project, delivery, and Quality Assurance (QA) operating model using the Origami environment while borrowing useful ideas from Jira-style project management practices.
+The project behind this repository exists to keep the product clearly documented, professionally governed, and easy to understand for managers, implementers, and stakeholders.
 
 ## Why This Project Exists
 
-The project exists to provide:
-- clear project structure
+This project exists to provide:
+- clear product framing
 - strong delivery visibility
-- controlled execution
-- accountable ownership
-- formal validation flow
-- management-friendly planning and reporting
+- controlled execution and validation language
+- consistent management reporting
+- documented governance boundaries
+- one coherent documentation system around the live product
 
-## What This Repository Must Achieve
+## Documentation Objective
 
-This repository must present the project professionally by providing:
-- clear project management document separation
-- professional PM documents such as PDR, PRD, charter, RAID, RACI, roadmap, and status reporting
-- one table of contents for all documents
-- clear distinction between project management docs and product truth
+This repository should make it easy to:
+- understand the live product model
+- identify canonical product and implementation sources
+- navigate product, implementation, operations, and governance topics separately
+- communicate project status and decisions professionally
+- update narrative and management content without altering product truth
+
+## Governance Rule
+
+The Product Requirements Document (PRD), Build Guide, and page baseline remain the canonical references for the live system.
+
+This governance layer supports planning, reporting, and control. It must not silently change entity structure, field names, workflows, permissions expectations, or page behavior.
 
 ## Primary References
 
 - [../TABLE_OF_CONTENTS.md](../TABLE_OF_CONTENTS.md)
 - [../02-product/PRD.md](../02-product/PRD.md)
+- [../03-implementation/BUILD_GUIDE.md](../03-implementation/BUILD_GUIDE.md)
+- [../04-views/pages.md](../04-views/pages.md)
 - [project-charter.md](project-charter.md)
 - [scope-baseline.md](scope-baseline.md)

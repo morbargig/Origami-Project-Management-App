@@ -1,21 +1,24 @@
 # Overview
 
-This folder contains the executive and conceptual layer for the `JiraGami` project, which delivers a Smart Project Management product on the `Origami` platform.
+This folder provides the executive context for `JiraGami`.
+
+Use it to understand what the product is, why it exists, and how to think about the live system before moving into detailed product or implementation documents.
 
 ## Files
 
-- [vision.md](vision.md) - business purpose, audience, and version 1 framing
-- [mindset.md](mindset.md) - Project Manager (PM) mindset, terminology, and documentation rules
-- [architecture.md](architecture.md) - platform structure, core hierarchy, and reference diagrams
+- [vision.md](vision.md) - product purpose, target users, and version 1 scope
+- [mindset.md](mindset.md) - management framing, terminology, and documentation boundaries
+- [architecture.md](architecture.md) - core hierarchy, platform building blocks, and reference diagrams
 
 ## Use This Folder For
 
-- stakeholder introductions
+- executive introductions
+- stakeholder orientation
 - Project Manager (PM)-level explanation
 - Artificial Intelligence (AI) context before deeper product or implementation work
 
 ## Canonical Note
 
-This section explains the system at a management level.
+This section is explanatory, not authoritative.
 
 The canonical product definition remains in [../02-product/PRD.md](../02-product/PRD.md).
