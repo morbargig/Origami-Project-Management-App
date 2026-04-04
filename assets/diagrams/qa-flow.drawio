@@ -1,0 +1,35 @@
+<mxfile host="app.diagrams.net" modified="2026-04-04T00:00:00.000Z" agent="Cursor" version="26.0.11">
+  <diagram id="qa-flow" name="QA Flow">
+    <mxGraphModel dx="1800" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Task-Level Validation" style="swimlane;html=1;startSize=28;rounded=1;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="40" y="80" width="760" height="260" as="geometry" /></mxCell>
+        <mxCell id="3" value="New" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" vertex="1" parent="2"><mxGeometry x="40" y="70" width="110" height="50" as="geometry" /></mxCell>
+        <mxCell id="4" value="InProgress" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" vertex="1" parent="2"><mxGeometry x="190" y="70" width="110" height="50" as="geometry" /></mxCell>
+        <mxCell id="5" value="Self QA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;" vertex="1" parent="2"><mxGeometry x="340" y="70" width="110" height="50" as="geometry" /></mxCell>
+        <mxCell id="6" value="Done" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="2"><mxGeometry x="490" y="70" width="110" height="50" as="geometry" /></mxCell>
+        <mxCell id="7" value="Assignee remains responsible for actual completion" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2"><mxGeometry x="40" y="150" width="210" height="70" as="geometry" /></mxCell>
+        <mxCell id="8" value="QA Assignee optional reviewer only while Epic is In Progress" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2"><mxGeometry x="280" y="150" width="220" height="70" as="geometry" /></mxCell>
+        <mxCell id="9" value="Reviewer confirms readiness outside workflow; Assignee updates task status" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="2"><mxGeometry x="530" y="150" width="190" height="70" as="geometry" /></mxCell>
+        <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="2" source="3" target="4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="2" source="4" target="5"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="2" source="5" target="6"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="30" value="Epic-Level Formal QA" style="swimlane;html=1;startSize=28;rounded=1;horizontal=0;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="40" y="400" width="1080" height="300" as="geometry" /></mxCell>
+        <mxCell id="31" value="Open" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" vertex="1" parent="30"><mxGeometry x="30" y="90" width="120" height="55" as="geometry" /></mxCell>
+        <mxCell id="32" value="In Progress" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" vertex="1" parent="30"><mxGeometry x="200" y="90" width="120" height="55" as="geometry" /></mxCell>
+        <mxCell id="33" value="Ready for QA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="30"><mxGeometry x="370" y="90" width="130" height="55" as="geometry" /></mxCell>
+        <mxCell id="34" value="QA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" vertex="1" parent="30"><mxGeometry x="550" y="90" width="120" height="55" as="geometry" /></mxCell>
+        <mxCell id="35" value="Done" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="30"><mxGeometry x="730" y="90" width="120" height="55" as="geometry" /></mxCell>
+        <mxCell id="36" value="QA Manager receives notification / email when Epic becomes Ready for QA" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="30"><mxGeometry x="360" y="180" width="230" height="80" as="geometry" /></mxCell>
+        <mxCell id="37" value="QA team handles formal routing and may send related tasks back to Self QA" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="30"><mxGeometry x="640" y="180" width="260" height="80" as="geometry" /></mxCell>
+        <mxCell id="38" value="rework" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="30" source="34" target="32"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="39" value="task loop" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="1" source="34" target="5"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="40" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="30" source="31" target="32"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="41" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="30" source="32" target="33"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="42" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="30" source="33" target="34"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="43" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;" edge="1" parent="30" source="34" target="35"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
