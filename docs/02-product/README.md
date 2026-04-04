@@ -1,6 +1,6 @@
 # Product
 
-This folder contains the canonical product-definition layer for `JiraGami`, described as `Origami Smart PM`.
+This folder contains the canonical product-definition layer for `JiraGami`, a Smart Project Management product deployed on the `Origami` platform.
 
 ## Files
 

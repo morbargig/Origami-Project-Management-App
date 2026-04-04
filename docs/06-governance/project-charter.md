@@ -4,15 +4,23 @@
 
 `JiraGami`
 
+## Project Identity
+
+- project name: `JiraGami`
+- project manager: `Mor Bargig`
+- product type: `Smart Project Management system`
+- deployment platform: `Origami`
+- product inspiration: `Jira-style project management structure and practices`
+
 Working description:
 
-`JiraGami` is the project management documentation and delivery framework for the production system `Origami Smart PM`.
+`JiraGami` is a Smart Project Management product running on the `Origami` platform.
 
 ## Charter Purpose
 
 This charter provides the executive management framing for the project documentation set.
 
-It does not redefine the product. It frames how the production system should be understood, governed, and communicated.
+It does not redefine the product. It frames how the project and production system should be understood, governed, and communicated.
 
 ## Business Objective
 

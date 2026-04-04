@@ -4,7 +4,7 @@
 
 ## Purpose
 
-This Build Guide is the canonical implementation document for `JiraGami`, described as `Origami Smart PM`.
+This Build Guide is the canonical implementation document for `JiraGami`, a Smart Project Management product deployed on the `Origami` platform.
 
 Use it to configure the existing product model in Origami without changing the business logic defined in the `Product Requirements Document (PRD)`.
 

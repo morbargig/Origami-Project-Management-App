@@ -1,6 +1,6 @@
 # Overview
 
-This folder contains the executive and conceptual layer for `JiraGami`, the documentation framework for `Origami Smart PM`.
+This folder contains the executive and conceptual layer for the `JiraGami` project, which delivers a Smart Project Management product on the `Origami` platform.
 
 ## Files
 

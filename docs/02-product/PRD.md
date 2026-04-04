@@ -4,7 +4,7 @@
 
 ## Purpose
 
-This Product Requirements Document (PRD) is the canonical product-definition document for `JiraGami`, described as `Origami Smart PM`.
+This Product Requirements Document (PRD) is the canonical product-definition document for `JiraGami`, a Smart Project Management product deployed on the `Origami` platform.
 
 It defines why the system exists, what it contains, how the entity model works, how Quality Assurance (QA) is structured, and what the main user-facing pages should do.
 

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-`JiraGami` is the project management documentation and operating model for `Origami Smart PM`, a project management system built on Origami for medium-size teams.
+`JiraGami` is a Smart Project Management product deployed on the `Origami` platform for medium-size teams.
 
 It helps teams define projects clearly, break work into manageable layers, control execution, route validation through Quality Assurance (QA), and maintain visibility on time, scope, and budget.
 
