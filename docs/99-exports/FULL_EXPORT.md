@@ -1,6 +1,6 @@
 # JiraGami — Full Export
 
-_Merged export reference for stakeholder sharing or AI upload. `JiraGami` is the live product documented in this repository and runs on the `Origami` platform._
+_Merged export reference for stakeholder sharing or AI upload. `JiraGami` is the product documented in this repository and runs on the `Origami` platform._
 
 ## Canonical Sources
 

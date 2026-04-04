@@ -16,7 +16,7 @@ Use it to move between product truth, implementation guidance, operating rules, 
 
 ## Canonical Truth
 
-Use these as the authoritative references for the live product:
+Use these as the authoritative references for the current product:
 - product definition: [02-product/PRD.md](02-product/PRD.md)
 - implementation guidance: [03-implementation/BUILD_GUIDE.md](03-implementation/BUILD_GUIDE.md)
 - page baseline: [04-views/pages.md](04-views/pages.md)

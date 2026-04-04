@@ -26,7 +26,7 @@ This scope baseline defines what the `JiraGami` documentation and governance lay
 
 ## Assumptions
 
-- `JiraGami` already has a defined live product baseline
+- `JiraGami` already has a defined product baseline
 - the current PRD and Build Guide reflect the intended production truth
 - documentation should support management, not redesign the product
 - existing field names and workflow terms must remain exact where they describe product behavior

@@ -8,7 +8,7 @@ This log records key documentation and governance decisions for `JiraGami`.
 
 ### Decision 01
 
-- decision: keep the live product model unchanged unless canonical product documents are intentionally updated
+- decision: keep the current product model unchanged unless canonical product documents are intentionally updated
 - rationale: the application is already in production and documentation work must not act as silent redesign
 
 ### Decision 02
@@ -24,4 +24,4 @@ This log records key documentation and governance decisions for `JiraGami`.
 ### Decision 04
 
 - decision: treat the Product Requirements Document (PRD), Build Guide, and page baseline as canonical sources
-- rationale: these files define the live product, implementation model, and user-facing structure
+- rationale: these files define the current product, implementation model, and user-facing structure

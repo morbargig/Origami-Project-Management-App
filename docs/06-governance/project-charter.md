@@ -6,7 +6,7 @@
 
 ## Charter Purpose
 
-This charter defines how the `JiraGami` documentation project should be understood, governed, and maintained around the live production product.
+This charter defines how the `JiraGami` documentation project should be understood, governed, and maintained around the current production product.
 
 It does not redefine the application. It defines how documentation and governance should support it.
 
@@ -38,7 +38,7 @@ This documentation effort should:
 - present the product clearly to managers and stakeholders
 - separate product, implementation, operations, and governance concerns
 - improve reporting, accountability, and onboarding quality
-- keep all summary documents aligned with the live product model
+- keep all summary documents aligned with the current product model
 
 ## Success Definition
 

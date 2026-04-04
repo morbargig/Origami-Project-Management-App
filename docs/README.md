@@ -1,6 +1,6 @@
 # Docs
 
-This folder contains the structured documentation set for the live `JiraGami` product on the `Origami` platform.
+This folder contains the structured documentation set for `JiraGami` on the `Origami` platform.
 
 ## How To Use This Folder
 

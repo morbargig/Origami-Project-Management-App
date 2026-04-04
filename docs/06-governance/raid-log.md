@@ -13,7 +13,7 @@ This document tracks management-level `Risks`, `Assumptions`, `Issues`, and `Dep
 ## Assumptions
 
 - the product model described in the Product Requirements Document (PRD) is valid
-- implementation guidance reflects the live platform baseline
+- implementation guidance reflects the current platform baseline
 - stakeholders need both detailed product documents and executive-level summaries
 
 ## Issues

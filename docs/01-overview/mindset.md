@@ -1,6 +1,6 @@
 # Mindset
 
-This document defines how `JiraGami` should be explained at the management level without changing the live product model.
+This document defines how `JiraGami` should be explained at the management level without changing the current product model.
 
 ## Core Delivery Sequence
 

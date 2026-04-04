@@ -1,6 +1,6 @@
 # JiraGami — PRD + Build Guide
 
-_Merged export for AI upload or external sharing. `JiraGami` is the live product documented in this repository and is deployed on the `Origami` platform._
+_Merged export for AI upload or external sharing. `JiraGami` is the product documented in this repository and is deployed on the `Origami` platform._
 
 ## Canonical Sources
 

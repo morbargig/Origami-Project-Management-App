@@ -2,7 +2,7 @@
 
 This folder provides the executive context for `JiraGami`.
 
-Use it to understand what the product is, why it exists, and how to think about the live system before moving into detailed product or implementation documents.
+Use it to understand what the product is, why it exists, and how to think about the system before moving into detailed product or implementation documents.
 
 ## Files
 

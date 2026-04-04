@@ -1,6 +1,6 @@
 # JiraGami
 
-Professional documentation for the live `JiraGami` product.
+Professional documentation for `JiraGami`.
 
 ## Product Identity
 
@@ -8,7 +8,7 @@ Professional documentation for the live `JiraGami` product.
 
 It is designed for teams that need more than a task board: clear project context, structured execution, visible timelines, formal Quality Assurance (QA) routing, and management-friendly reporting.
 
-This repository organizes the product, implementation, operations, and governance documentation around the live product model.
+This repository organizes the product, implementation, operations, and governance documentation around the current product model.
 
 ## What This Repository Covers
 
@@ -37,7 +37,7 @@ Project -> Epic -> Task
 
 ## Canonical Sources
 
-Use these files as the primary truth for the live product model:
+Use these files as the primary truth for the current product model:
 - product definition: `docs/02-product/PRD.md`
 - implementation design: `docs/03-implementation/BUILD_GUIDE.md`
 - page and view baseline: `docs/04-views/pages.md`
@@ -166,7 +166,7 @@ Setup and ownership:
 - [Build order](assets/diagrams/build-order.svg)
 - [Project ownership](assets/diagrams/project-ownership.svg)
 
-Screenshots live under `assets/images/` and are embedded into the relevant docs.
+Screenshots are stored under `assets/images/` and are embedded into the relevant docs.
 
 ### Inline Diagram Preview
 
@@ -194,7 +194,7 @@ When using ChatGPT or Cursor:
 2. Use `docs/02-product/PRD.md` as the product truth.
 3. Use `docs/03-implementation/BUILD_GUIDE.md` for Origami configuration details.
 4. Use split docs for focused edits by topic.
-5. Keep any summary or governance changes aligned with the live product model.
+5. Keep any summary or governance changes aligned with the current product model.
 
 ## Product Screenshots
 

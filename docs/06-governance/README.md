@@ -4,7 +4,7 @@ This folder contains the governance and reporting layer for `JiraGami`.
 
 ## Purpose
 
-Use this section to manage the project professionally while keeping the live product model unchanged.
+Use this section to manage the project professionally while keeping the current product model unchanged.
 
 These documents define:
 - project framing

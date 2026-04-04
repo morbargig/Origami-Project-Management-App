@@ -4,7 +4,7 @@
 
 This `Project Definition Report (PDR)` provides the executive and management framing for `JiraGami`.
 
-It explains what the project is, why the documentation set exists, and how governance should support the live product without redefining it.
+It explains what the project is, why the documentation set exists, and how governance should support the product without redefining it.
 
 ## Project Identity
 
@@ -16,7 +16,7 @@ It explains what the project is, why the documentation set exists, and how gover
 
 ## Project Statement
 
-`JiraGami` is a live Smart Project Management product running on the `Origami` platform.
+`JiraGami` is a Smart Project Management product running on the `Origami` platform.
 
 The project behind this repository exists to keep the product clearly documented, professionally governed, and easy to understand for managers, implementers, and stakeholders.
 
@@ -28,12 +28,12 @@ This project exists to provide:
 - controlled execution and validation language
 - consistent management reporting
 - documented governance boundaries
-- one coherent documentation system around the live product
+- one coherent documentation system around the product
 
 ## Documentation Objective
 
 This repository should make it easy to:
-- understand the live product model
+- understand the current product model
 - identify canonical product and implementation sources
 - navigate product, implementation, operations, and governance topics separately
 - communicate project status and decisions professionally
@@ -41,7 +41,7 @@ This repository should make it easy to:
 
 ## Governance Rule
 
-The Product Requirements Document (PRD), Build Guide, and page baseline remain the canonical references for the live system.
+The Product Requirements Document (PRD), Build Guide, and page baseline remain the canonical references for the current system.
 
 This governance layer supports planning, reporting, and control. It must not silently change entity structure, field names, workflows, permissions expectations, or page behavior.
 
