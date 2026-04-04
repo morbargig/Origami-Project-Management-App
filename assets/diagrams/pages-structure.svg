@@ -16,21 +16,21 @@
 <path d="M 705.0 480.0 L 655.0 480.0 L 655.0 560.0 L 605.0 560.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
 <path d="M 915.0 480.0 L 960.0 480.0 L 960.0 560.0 L 1005.0 560.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
 <rect x="700.0" y="40.0" width="190.0" height="60.0" rx="12" ry="12" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2" filter="url(#shadow)"/>
-<text x="795.0" y="75.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111">Executive Dashboard</text>
+<text x="795.0" y="75.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111"><tspan x="795.0" dy="0">Executive Dashboard</tspan></text>
 <rect x="700.0" y="160.0" width="190.0" height="60.0" rx="12" ry="12" fill="#d5e8d4" stroke="#82b366" stroke-width="2" filter="url(#shadow)"/>
-<text x="795.0" y="195.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111">Projects List</text>
+<text x="795.0" y="195.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111"><tspan x="795.0" dy="0">Projects List</tspan></text>
 <rect x="700.0" y="280.0" width="190.0" height="60.0" rx="12" ry="12" fill="#fff2cc" stroke="#d6b656" stroke-width="2" filter="url(#shadow)"/>
-<text x="795.0" y="315.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111">Project Details</text>
+<text x="795.0" y="315.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#111"><tspan x="795.0" dy="0">Project Details</tspan></text>
 <rect x="410.0" y="420.0" width="170.0" height="60.0" rx="12" ry="12" fill="#ffe6cc" stroke="#d79b00" stroke-width="2" filter="url(#shadow)"/>
-<text x="495.0" y="455.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">Epic Board</text>
+<text x="495.0" y="455.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111"><tspan x="495.0" dy="0">Epic Board</tspan></text>
 <rect x="620.0" y="420.0" width="170.0" height="60.0" rx="12" ry="12" fill="#ffe6cc" stroke="#d79b00" stroke-width="2" filter="url(#shadow)"/>
-<text x="705.0" y="455.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">Task Board</text>
+<text x="705.0" y="455.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111"><tspan x="705.0" dy="0">Task Board</tspan></text>
 <rect x="830.0" y="420.0" width="170.0" height="60.0" rx="12" ry="12" fill="#f8cecc" stroke="#b85450" stroke-width="2" filter="url(#shadow)"/>
-<text x="915.0" y="455.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">QA Queue</text>
+<text x="915.0" y="455.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111"><tspan x="915.0" dy="0">QA Queue</tspan></text>
 <rect x="1040.0" y="420.0" width="170.0" height="60.0" rx="12" ry="12" fill="#e1d5e7" stroke="#9673a6" stroke-width="2" filter="url(#shadow)"/>
-<text x="1125.0" y="455.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">Gantt</text>
+<text x="1125.0" y="455.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111"><tspan x="1125.0" dy="0">Gantt</tspan></text>
 <rect x="520.0" y="560.0" width="170.0" height="60.0" rx="12" ry="12" fill="#d5e8d4" stroke="#82b366" stroke-width="2" filter="url(#shadow)"/>
-<text x="605.0" y="595.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">My Tasks</text>
+<text x="605.0" y="595.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111"><tspan x="605.0" dy="0">My Tasks</tspan></text>
 <rect x="920.0" y="560.0" width="170.0" height="60.0" rx="12" ry="12" fill="#f8cecc" stroke="#b85450" stroke-width="2" filter="url(#shadow)"/>
-<text x="1005.0" y="595.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">QA Team Board</text>
+<text x="1005.0" y="595.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111"><tspan x="1005.0" dy="0">QA Team Board</tspan></text>
 </svg>

@@ -18,25 +18,25 @@
 <path d="M 1460.0 130.0 L 1460.0 130.0 L 1460.0 145.0 L 1460.0 145.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
 <path d="M 1460.0 195.0 L 1460.0 195.0 L 1460.0 210.0 L 1460.0 210.0" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrow)"/>
 <rect x="40.0" y="120.0" width="140.0" height="50.0" rx="12" ry="12" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2" filter="url(#shadow)"/>
-<text x="110.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">1. Users and Groups</text>
+<text x="110.0" y="141.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111"><tspan x="110.0" dy="0">1. Users and</tspan><tspan x="110.0" dy="18">Groups</tspan></text>
 <rect x="210.0" y="120.0" width="140.0" height="50.0" rx="12" ry="12" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2" filter="url(#shadow)"/>
-<text x="280.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">2. User custom fields</text>
+<text x="280.0" y="141.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111"><tspan x="280.0" dy="0">2. User custom</tspan><tspan x="280.0" dy="18">fields</tspan></text>
 <rect x="380.0" y="120.0" width="140.0" height="50.0" rx="12" ry="12" fill="#d5e8d4" stroke="#82b366" stroke-width="2" filter="url(#shadow)"/>
-<text x="450.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">3. Project entity</text>
+<text x="450.0" y="141.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111"><tspan x="450.0" dy="0">3. Project</tspan><tspan x="450.0" dy="18">entity</tspan></text>
 <rect x="550.0" y="120.0" width="140.0" height="50.0" rx="12" ry="12" fill="#d5e8d4" stroke="#82b366" stroke-width="2" filter="url(#shadow)"/>
-<text x="620.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">4. Epic entity</text>
+<text x="620.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111"><tspan x="620.0" dy="0">4. Epic entity</tspan></text>
 <rect x="720.0" y="120.0" width="140.0" height="50.0" rx="12" ry="12" fill="#d5e8d4" stroke="#82b366" stroke-width="2" filter="url(#shadow)"/>
-<text x="790.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">5. Task entity</text>
+<text x="790.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111"><tspan x="790.0" dy="0">5. Task entity</tspan></text>
 <rect x="890.0" y="120.0" width="140.0" height="50.0" rx="12" ry="12" fill="#ffe6cc" stroke="#d79b00" stroke-width="2" filter="url(#shadow)"/>
-<text x="960.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">6. Permissions</text>
+<text x="960.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111"><tspan x="960.0" dy="0">6. Permissions</tspan></text>
 <rect x="1060.0" y="120.0" width="140.0" height="50.0" rx="12" ry="12" fill="#ffe6cc" stroke="#d79b00" stroke-width="2" filter="url(#shadow)"/>
-<text x="1130.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">7. Pages</text>
+<text x="1130.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111"><tspan x="1130.0" dy="0">7. Pages</tspan></text>
 <rect x="1230.0" y="120.0" width="140.0" height="50.0" rx="12" ry="12" fill="#ffe6cc" stroke="#d79b00" stroke-width="2" filter="url(#shadow)"/>
-<text x="1300.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">8. Workflows</text>
+<text x="1300.0" y="150.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111"><tspan x="1300.0" dy="0">8. Workflows</tspan></text>
 <rect x="1400.0" y="80.0" width="120.0" height="50.0" rx="12" ry="12" fill="#f8cecc" stroke="#b85450" stroke-width="2" filter="url(#shadow)"/>
-<text x="1460.0" y="110.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">9. Gantt</text>
+<text x="1460.0" y="110.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111"><tspan x="1460.0" dy="0">9. Gantt</tspan></text>
 <rect x="1400.0" y="145.0" width="120.0" height="50.0" rx="12" ry="12" fill="#f8cecc" stroke="#b85450" stroke-width="2" filter="url(#shadow)"/>
-<text x="1460.0" y="175.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">10. QA Team Board</text>
+<text x="1460.0" y="166.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111"><tspan x="1460.0" dy="0">10. QA Team</tspan><tspan x="1460.0" dy="18">Board</tspan></text>
 <rect x="1400.0" y="210.0" width="120.0" height="50.0" rx="12" ry="12" fill="#f8cecc" stroke="#b85450" stroke-width="2" filter="url(#shadow)"/>
-<text x="1460.0" y="240.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#111">11. Email notifications</text>
+<text x="1460.0" y="231.0" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#111"><tspan x="1460.0" dy="0">11. Email</tspan><tspan x="1460.0" dy="17">notifications</tspan></text>
 </svg>
