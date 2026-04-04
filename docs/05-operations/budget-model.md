@@ -2,7 +2,7 @@
 
 ## Version 1 Principle
 
-This document describes the management budget model for `JiraGami` while preserving the production baseline of `Origami Smart PM`.
+This document describes the management budget model for `JiraGami` on the `Origami` platform.
 
 Time is the first budget unit.
 

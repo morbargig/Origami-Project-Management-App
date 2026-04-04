@@ -13,8 +13,8 @@ This log records key documentation and governance decisions for `JiraGami`.
 
 ### Decision 02
 
-- decision: use `JiraGami` as the documentation-facing project name and describe it as `Origami Smart PM`
-- rationale: this keeps the documentation professional and branded without losing the real production context
+- decision: use `JiraGami` as the single product and documentation name across the repository
+- rationale: this keeps the project identity clear while still describing `Origami` as the deployment platform
 
 ### Decision 03
 

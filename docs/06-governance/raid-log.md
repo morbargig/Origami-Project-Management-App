@@ -12,7 +12,7 @@ This document tracks management-level `Risks`, `Assumptions`, `Issues`, and `Dep
 
 ## Assumptions
 
-- the production model described in the Product Requirements Document (PRD) is valid
+- the product model described in the Product Requirements Document (PRD) is valid
 - implementation guidance reflects the live platform baseline
 - stakeholders need both detailed product documents and executive-level summaries
 
@@ -33,4 +33,4 @@ This document tracks management-level `Risks`, `Assumptions`, `Issues`, and `Dep
 Review this log whenever:
 - canonical product documents change
 - major governance documents are added or updated
-- new production assumptions or delivery risks appear
+- new product assumptions or delivery risks appear

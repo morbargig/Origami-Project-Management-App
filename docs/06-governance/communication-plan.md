@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This communication plan defines how project information should be shared for `JiraGami` and the production system `Origami Smart PM`.
+This communication plan defines how project information should be shared for `JiraGami`.
 
 ## Communication Principles
 

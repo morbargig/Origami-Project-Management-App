@@ -2,7 +2,7 @@
 
 ## System Architecture
 
-Origami Smart PM is structured around one core hierarchy:
+`JiraGami` is structured around one core hierarchy:
 
 Project -> Epic -> Task
 

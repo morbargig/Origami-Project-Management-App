@@ -20,11 +20,11 @@ Working description:
 
 This charter provides the executive management framing for the project documentation set.
 
-It does not redefine the product. It frames how the project and production system should be understood, governed, and communicated.
+It does not redefine the product. It frames how `JiraGami` should be understood, governed, and communicated.
 
 ## Business Objective
 
-Create a professional, production-ready project management operating model for `Origami Smart PM` so managers and stakeholders can:
+Create a professional, production-ready project management operating model for `JiraGami` so managers and stakeholders can:
 - understand the system quickly
 - navigate one clean documentation structure
 - work from one canonical product definition
@@ -32,14 +32,14 @@ Create a professional, production-ready project management operating model for `
 
 ## Problem Statement
 
-Without a professional management documentation layer, production systems often become difficult to explain, govern, and scale.
+Without a professional management documentation layer, products often become difficult to explain, govern, and scale.
 
 The core product may work correctly, but management communication becomes fragmented across product notes, setup guidance, and operational descriptions.
 
 ## Project Objective
 
 Establish a professional Project Manager-owned documentation system that:
-- preserves the current production truth
+- preserves the current canonical product truth
 - presents the product clearly to managers and stakeholders
 - separates product, implementation, operations, and governance concerns
 - improves reporting, accountability, and onboarding quality
@@ -50,7 +50,7 @@ This documentation effort is successful when:
 - a manager can understand the project structure without reading every file
 - the Product Requirements Document (PRD) remains the clear source of product truth
 - governance documents support delivery without changing product logic
-- implementation and operations documentation remain aligned with the production model
+- implementation and operations documentation remain aligned with the product model
 
 ## Scope Summary
 

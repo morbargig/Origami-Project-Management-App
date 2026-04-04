@@ -2,7 +2,7 @@
 
 ## Operating Model
 
-`JiraGami` documents this operating sequence for the production system `Origami Smart PM`:
+`JiraGami` uses this operating sequence on the `Origami` platform:
 
 1. Define context.
 2. Set the goal.

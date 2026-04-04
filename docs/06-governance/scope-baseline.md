@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This scope baseline defines the documentation scope for the `JiraGami` management layer around `Origami Smart PM`.
+This scope baseline defines the documentation scope for the `JiraGami` management layer for the `JiraGami` product on the `Origami` platform.
 
 ## In Scope
 
@@ -26,7 +26,7 @@ This scope baseline defines the documentation scope for the `JiraGami` managemen
 
 ## Assumptions
 
-- `Origami Smart PM` is already in production
+- `JiraGami` already has a defined product baseline
 - the current PRD and Build Guide reflect the intended production baseline
 - documentation should support management, not redesign the product
 - existing field names and workflow terms must remain exact where they describe production truth

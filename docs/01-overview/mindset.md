@@ -1,6 +1,6 @@
 # Mindset
 
-This document defines the management documentation mindset for `JiraGami`, while preserving the production truth of `Origami Smart PM`.
+This document defines the management documentation mindset for `JiraGami` while preserving the canonical product truth of `JiraGami` on the `Origami` platform.
 
 ## Core Delivery Sequence
 

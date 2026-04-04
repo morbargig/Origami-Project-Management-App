@@ -1,6 +1,6 @@
 # Views
 
-This folder contains the page and view model for `JiraGami` in `Origami Smart PM`.
+This folder contains the page and view model for `JiraGami` on the `Origami` platform.
 
 ## Files
 

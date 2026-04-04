@@ -1,6 +1,6 @@
 # Diagrams
 
-This folder contains GitHub-previewable SVG diagrams and their editable draw.io source files for Origami Smart PM.
+This folder contains GitHub-previewable SVG diagrams and their editable draw.io source files for `JiraGami`.
 
 ## Preview Files
 

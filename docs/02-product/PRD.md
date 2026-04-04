@@ -12,7 +12,7 @@ The Build Guide defines how to implement the same model in Origami.
 
 ## Executive Summary
 
-Origami Smart PM is a smart project management system built on Origami for medium-size teams.
+`JiraGami` is a smart project management system built on Origami for medium-size teams.
 
 Its purpose is to help managers define project goals clearly, break work into structured levels, manage execution, track time and budget simply, and control delivery through permissions, workflows, and visual pages.
 
@@ -55,7 +55,7 @@ The vision is to create a single Origami workspace where a manager can:
 
 ## Platform Principles
 
-Origami Smart PM is built on Origami and intentionally uses:
+`JiraGami` is built on Origami and intentionally uses:
 - native Origami Users
 - native Origami Groups
 - native Origami metadata fields

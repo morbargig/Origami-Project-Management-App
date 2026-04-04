@@ -13,7 +13,7 @@ This folder contains the canonical product-definition layer for `JiraGami`, a Sm
 - product truth
 - field and status validation
 - workflow and Quality Assurance (QA) logic review
-- validating whether summaries in other folders still match the production model
+- validating whether summaries in other folders still match the product model
 
 ## Canonical Note
 

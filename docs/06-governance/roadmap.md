@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This roadmap provides a management view of documentation and governance maturity for `JiraGami` around the production system `Origami Smart PM`.
+This roadmap provides a management view of documentation and governance maturity for `JiraGami`.
 
 It does not redefine the product roadmap inside the application.
 
@@ -33,7 +33,7 @@ The current repository already contains:
 ### Phase 3
 
 - maintain governance logs over time
-- keep roadmap, RAID, and decision history current as the production system evolves
+- keep roadmap, RAID, and decision history current as `JiraGami` evolves
 
 ## Management Themes
 
